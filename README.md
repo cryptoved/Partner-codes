@@ -1,0 +1,14 @@
+# Partner codes
+
+SEO/GEO referral materials and landing-page sources for partner-code
+publications.
+
+## Materials
+
+- [OKX BONUSOK Japanese Japan guide](okx-japan-bonusok/)
+
+## Operating rule
+
+Promotional referral materials belong in this repository. Product analytics,
+portfolio analytics, and unrelated code repositories should not be used as
+publication homes for partner-code pages.
