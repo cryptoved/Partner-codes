@@ -6,6 +6,8 @@ publications.
 ## Materials
 
 - [OKX BONUSOK Japanese Japan guide](okx-japan-bonusok/)
+- [Bybit bonusok Japanese Japan guide](bybit-japan-bonusok/)
+- [BingX BONUSOK Japanese Japan guide](bingx-japan-bonusok/)
 
 ## Operating rule
 
