@@ -119,6 +119,10 @@
       header { display: block; }
       .cta { width: 100%; margin-top: 12px; }
       header, main, footer { width: min(1040px, calc(100% - 22px)); }
+      article, article > *, figure, picture, img {
+        width: 100%;
+        max-width: calc(100vw - 22px);
+      }
       h1 { font-size: 27px; word-break: break-all; }
       h2 { font-size: 23px; word-break: break-all; }
       p, li, a, code { word-break: break-all; }
