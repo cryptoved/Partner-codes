@@ -47,10 +47,6 @@
       color: #f3ffff;
       padding: 26px 0 34px;
     }
-    .hero picture {
-      display: block;
-      width: 100%;
-    }
     .hero img {
       width: 100%;
       height: auto;
@@ -58,6 +54,8 @@
       border-radius: 8px;
       border: 1px solid rgba(255,255,255,.12);
     }
+    .cover-mobile { display: none; }
+    .mobile-cover-box { display: none; }
     figure {
       width: 100%;
       max-width: 100%;
@@ -197,10 +195,24 @@
       }
       .subtitle { font-size: 18px; }
       .hero figure,
-      .hero picture,
       .hero img {
         width: calc(100vw - 32px) !important;
         max-width: calc(100vw - 32px) !important;
+      }
+      .cover-desktop,
+      .cover-mobile { display: none !important; }
+      .cover-mobile {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+      }
+      .mobile-cover-box {
+        display: block;
+        width: 100%;
+        aspect-ratio: 3 / 4;
+        background: url("cover-mobile.png") center / contain no-repeat;
+        border-radius: 8px;
+        border: 1px solid rgba(255,255,255,.12);
       }
       .cta-row { grid-template-columns: 1fr; }
       .qr { max-width: 240px; }
@@ -234,10 +246,9 @@
         <span class="pill">紹介リンク・QRあり</span>
       </div>
       <figure>
-        <picture>
-          <source media="(max-width: 760px)" srcset="cover-mobile.png" width="900" height="1200">
-          <img src="cover.png" width="1672" height="941" alt="Bitget 紹介コード hz1h7887 と QR コードを表示した日本語アクティブトレーダー向けカバー画像">
-        </picture>
+        <img class="cover-desktop" src="cover.png" width="1672" height="941" alt="Bitget 紹介コード hz1h7887 と QR コードを表示した日本語アクティブトレーダー向けカバー画像">
+        <img class="cover-mobile" src="cover-mobile.png" width="900" height="1200" alt="Bitget 紹介コード hz1h7887 と QR コードを表示した日本語スマートフォン向けカバー画像">
+        <div class="mobile-cover-box" role="img" aria-label="Bitget 紹介コード hz1h7887 と QR コードを表示した日本語スマートフォン向けカバー画像"></div>
         <figcaption class="caption">Bitget AI・UEX・コピー取引を検討する日本語トレーダー向けの確認用カバー。QRは実際の紹介QRをローカル合成し、最終画像から読み取り確認済みです。</figcaption>
       </figure>
     </div>
