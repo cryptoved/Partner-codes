@@ -31,7 +31,7 @@
       letter-spacing: 0;
     }
     header, main, footer {
-      width: min(100% - 32px, 1040px);
+      width: min(1040px, calc(100% - 32px));
       margin: 0 auto;
     }
     header {
@@ -59,13 +59,16 @@
     }
     main { padding: 28px 0 56px; }
     article {
+      width: 100%;
       max-width: 980px;
       margin: 0 auto;
+      overflow: hidden;
     }
     h1, h2, h3 {
       line-height: 1.28;
       letter-spacing: 0;
       overflow-wrap: anywhere;
+      word-break: normal;
     }
     h1 { font-size: clamp(30px, 5vw, 54px); margin: 0 0 22px; }
     h2 { font-size: clamp(24px, 3.4vw, 36px); margin: 48px 0 14px; color: #ffffff; }
@@ -115,8 +118,11 @@
     @media (max-width: 560px) {
       header { display: block; }
       .cta { width: 100%; margin-top: 12px; }
-      header, main, footer { width: min(100% - 22px, 1040px); }
-      figure { margin-left: 0; margin-right: 0; }
+      header, main, footer { width: min(1040px, calc(100% - 22px)); }
+      h1 { font-size: 27px; word-break: break-all; }
+      h2 { font-size: 23px; word-break: break-all; }
+      figure { margin-left: 0; margin-right: 0; max-width: 100%; overflow: hidden; }
+      img { width: 100%; max-width: 100%; }
     }
   </style>
 </head>
