@@ -6,6 +6,7 @@ publications.
 ## Materials
 
 - [OKX BONUSOK Japanese Japan guide](okx-japan-bonusok/)
+- [OKX BONUSOK Uzbek Uzbekistan eligibility guide](okx-bonusok-uzbekistan/)
 - [Bybit bonusok Japanese Japan guide](bybit-japan-bonusok/)
 - [BingX BONUSOK Japanese Japan guide](bingx-japan-bonusok/)
 - [Bitget hz1h7887 Japanese active trader guide](bitget-japan-hz1h7887/)
