@@ -2,7 +2,9 @@
 
 **O'zbekiston auditoriyasi uchun Bitget AI, UEX, copy trading va bonus shartlarini tekshirish bo'yicha amaliy qo'llanma.**
 
-<img src="bitget-uzbekistan-ai-uex-hz1h7887-cover.png" alt="Bitget referal kodi hz1h7887 uchun O'zbekiston treyderlari AI UEX va copy trading cover rasmi" width="100%">
+<img src="bitget-uzbekistan-github-preview.png" alt="Bitget referal kodi hz1h7887 uchun O'zbekiston treyderlari AI UEX va copy trading preview rasmi" width="340">
+
+[To'liq cover rasmini ochish](bitget-uzbekistan-ai-uex-hz1h7887-cover.png)
 
 **Qisqa xulosa:** Bitget uchun referal kodi — **hz1h7887**. Ro'yxatdan o'tishdan oldin kod ro'yxatdan o'tish oynasida ko'rinayotganini, bonus va cashback shartlari sizga tegishli ekanini, KYC talablari, yurisdiksiya cheklovlari, O'zbekistondagi kripto xizmatlar bo'yicha NAPP qoidalari va tanlangan mahsulotning risklari tushunarli ekanini tekshiring.
 
