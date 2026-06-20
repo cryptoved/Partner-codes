@@ -1,0 +1,112 @@
+{
+  "created_at_utc": "2026-06-20T05:38:06Z",
+  "material": {
+    "word_count": 2496,
+    "char_count": 19243,
+    "title": "BingX referal kodi BONUSOK: Uzbekistan active traderlari uchun 2026 qo'llanma",
+    "public_url": "https://github.com/cryptoved/Partner-codes/tree/main/bingx-uzbekistan-bonusok"
+  },
+  "image": {
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "background_source": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-uzbekistan-bonusok\\ai-background-source.png",
+    "qr_source": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-uzbekistan-bonusok\\bingx_BONUSOK_source.png",
+    "text_panel": {
+      "x": 70,
+      "y": 86,
+      "w": 830,
+      "h": 735
+    },
+    "code_panel": {
+      "x": 90,
+      "y": 650,
+      "w": 680,
+      "h": 132
+    },
+    "qr_card": {
+      "x": 1070,
+      "y": 150,
+      "w": 480,
+      "h": 600
+    },
+    "qr_box": {
+      "x": 1145,
+      "y": 262,
+      "w": 330,
+      "h": 330
+    },
+    "text_metrics": [
+      {
+        "text": "BingX BONUSOK",
+        "width": 568,
+        "max_width": 690
+      },
+      {
+        "text": "Uzbekistan active traderlari uchun",
+        "width": 545,
+        "max_width": 650
+      },
+      {
+        "text": "referal kodi, TradFi, futures va copy",
+        "width": 565,
+        "max_width": 650
+      },
+      {
+        "text": "trading checklist",
+        "width": 262,
+        "max_width": 650
+      },
+      {
+        "text": "Bonusni emas, riskni birinchi tekshiring: KYC, eligibility,",
+        "width": 633,
+        "max_width": 650
+      },
+      {
+        "text": "leverage, drawdown va withdrawal test.",
+        "width": 465,
+        "max_width": 650
+      },
+      {
+        "text": "Referal kodi: BONUSOK",
+        "width": 490,
+        "max_width": 610
+      },
+      {
+        "text": "Rasmiy havola va QR: bingx.com/partner/bonusok",
+        "width": 590,
+        "max_width": 610
+      },
+      {
+        "text": "Disclosure: referal havola. Crypto",
+        "width": 362,
+        "max_width": 365
+      },
+      {
+        "text": "trading yuqori riskli.",
+        "width": 218,
+        "max_width": 365
+      }
+    ],
+    "hero_path": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-uzbekistan-bonusok\\bingx-bonusok-uzbekistan-hero.jpg",
+    "compact_qr_path": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-uzbekistan-bonusok\\bingx-bonusok-uzbekistan-qr.png",
+    "qr_crop_path": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-uzbekistan-bonusok\\bingx-bonusok-uzbekistan-hero-qr-crop.png",
+    "decoded_source_qr": [
+      "https://bingx.com/partner/bonusok"
+    ],
+    "decoded_hero_qr_crop": [
+      "https://bingx.com/partner/bonusok"
+    ],
+    "decoded_compact_qr": [
+      "https://bingx.com/partner/bonusok"
+    ]
+  },
+  "checks": {
+    "real_qr_inserted_locally": true,
+    "ai_generated_qr_used": false,
+    "referral_url": "https://bingx.com/partner/bonusok",
+    "all_decoded_targets_match_referral_url": true,
+    "all_text_lines_fit": true
+  }
+}
