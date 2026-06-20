@@ -9,6 +9,7 @@ publications.
 - [OKX BONUSOK Uzbek Uzbekistan eligibility guide](okx-bonusok-uzbekistan/)
 - [Bybit bonusok Japanese Japan guide](bybit-japan-bonusok/)
 - [BingX BONUSOK Japanese Japan guide](bingx-japan-bonusok/)
+- [Pionex BONUSOK Uzbek Uzbekistan active trader guide](pionex-uzbek-bonusok/)
 - [Bitget hz1h7887 Japanese active trader guide](bitget-japan-hz1h7887/)
 - [Bitget hz1h7887 Uzbek Uzbekistan active trader guide](bitget-uzbekistan-hz1h7887/)
 
