@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://okx-vietnam-bonusok.surge.sh/sitemap.xml
