@@ -1,0 +1,101 @@
+{
+  "created_at_utc": "2026-06-21T11:40:27Z",
+  "material": {
+    "word_count": 2975,
+    "char_count": 15326,
+    "title": "Mã giới thiệu BingX BONUSOK tại Việt Nam: hướng dẫn cho active trader 2026"
+  },
+  "image": {
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "background_source": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-vietnam-bonusok\\ai-background-source.png",
+    "qr_source": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-vietnam-bonusok\\bingx_BONUSOK_source.png",
+    "text_panel": {
+      "x": 68,
+      "y": 82,
+      "w": 850,
+      "h": 730
+    },
+    "code_panel": {
+      "x": 98,
+      "y": 654,
+      "w": 650,
+      "h": 132
+    },
+    "qr_card": {
+      "x": 1060,
+      "y": 144,
+      "w": 490,
+      "h": 604
+    },
+    "qr_box": {
+      "x": 1139,
+      "y": 256,
+      "w": 332,
+      "h": 332
+    },
+    "text_metrics": [
+      {
+        "text": "BingX BONUSOK",
+        "width": 511,
+        "max_width": 690
+      },
+      {
+        "text": "Mã giới thiệu cho active trader Việt Nam",
+        "width": 631,
+        "max_width": 670
+      },
+      {
+        "text": "TradFi, Ultra TradingView, copy trading và checklist rủi ro",
+        "width": 642,
+        "max_width": 680
+      },
+      {
+        "text": "trước khi nạp tiền.",
+        "width": 207,
+        "max_width": 680
+      },
+      {
+        "text": "Mã giới thiệu: BONUSOK",
+        "width": 479,
+        "max_width": 580
+      },
+      {
+        "text": "Link/QR: bingx.com/partner/bonusok",
+        "width": 429,
+        "max_width": 580
+      },
+      {
+        "text": "Disclosure: có link giới thiệu.",
+        "width": 308,
+        "max_width": 385
+      },
+      {
+        "text": "Crypto và futures có rủi ro cao.",
+        "width": 335,
+        "max_width": 385
+      }
+    ],
+    "hero_path": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-vietnam-bonusok\\bingx-bonusok-vietnam-hero.jpg",
+    "compact_qr_path": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-vietnam-bonusok\\bingx-bonusok-vietnam-qr.png",
+    "qr_crop_path": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\BingX\\work\\bingx-vietnam-bonusok\\bingx-bonusok-vietnam-hero-qr-crop.png",
+    "decoded_source_qr": [
+      "https://bingx.com/partner/bonusok"
+    ],
+    "decoded_hero_qr_crop": [
+      "https://bingx.com/partner/bonusok"
+    ],
+    "decoded_compact_qr": [
+      "https://bingx.com/partner/bonusok"
+    ]
+  },
+  "checks": {
+    "real_qr_inserted_locally": true,
+    "ai_generated_qr_used": false,
+    "referral_url": "https://bingx.com/partner/bonusok",
+    "all_decoded_targets_match_referral_url": true,
+    "all_text_lines_fit": true
+  }
+}
