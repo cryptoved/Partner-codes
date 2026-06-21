@@ -7,6 +7,7 @@ publications.
 
 - [OKX BONUSOK Japanese Japan guide](okx-japan-bonusok/)
 - [OKX BONUSOK Uzbek Uzbekistan eligibility guide](okx-bonusok-uzbekistan/)
+- [OKX BONUSOK Vietnamese Vietnam active trader guide](okx-vietnam-bonusok/)
 - [Bybit bonusok Japanese Japan guide](bybit-japan-bonusok/)
 - [BingX BONUSOK Japanese Japan guide](bingx-japan-bonusok/)
 - [Pionex BONUSOK Uzbek Uzbekistan active trader guide](pionex-uzbek-bonusok/)
