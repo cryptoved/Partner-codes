@@ -9,6 +9,7 @@ publications.
 - [OKX BONUSOK Uzbek Uzbekistan eligibility guide](okx-bonusok-uzbekistan/)
 - [OKX BONUSOK Vietnamese Vietnam active trader guide](okx-vietnam-bonusok/)
 - [Bybit bonusok Japanese Japan guide](bybit-japan-bonusok/)
+- [Bybit bonusok Vietnamese Vietnam active trader guide](bybit-vietnam-bonusok/README.md)
 - [BingX BONUSOK Japanese Japan guide](bingx-japan-bonusok/)
 - [Pionex BONUSOK Uzbek Uzbekistan active trader guide](pionex-uzbek-bonusok/)
 - [Pionex BONUSOK Vietnamese Vietnam guide](https://htmlpreview.github.io/?https://github.com/cryptoved/Partner-codes/blob/pionex-vietnam-bonusok-v2/pionex-vietnam-bonusok/index.html)
