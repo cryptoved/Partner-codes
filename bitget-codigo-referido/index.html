@@ -122,7 +122,19 @@
       padding: 18px;
       background: #fff;
     }
-    .side img { width: 100%; max-width: 260px; display: block; margin: 8px auto 14px; }
+    .qr-frame {
+      width: min(100%, 260px);
+      aspect-ratio: 1 / 1;
+      margin: 8px auto 14px;
+      display: block;
+      overflow: hidden;
+    }
+    .qr-frame img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+    }
     .side h2 { font-size: 22px; }
     .small { font-size: 14px; color: var(--muted); }
     ul { padding-left: 22px; }
@@ -244,7 +256,7 @@
       </article>
       <aside class="side" id="checklist">
         <h2>Resumo operacional</h2>
-        <img src="assets/bitget-qr-code-hz1h7887.png" alt="QR code Bitget hz1h7887" width="512" height="512">
+        <span class="qr-frame"><img data-qr="sidebar" src="assets/bitget-qr-code-hz1h7887.png" alt="QR code Bitget hz1h7887" width="512" height="512"></span>
         <p><strong>Código:</strong> hz1h7887</p>
         <p><strong>Foco:</strong> Brasil e Portugal, traders que querem checar produtos, risco e elegibilidade antes do depósito.</p>
         <p><a class="button" href="https://www.bitget.com/en/expressly?channelCode=2avs&languageType=0&vipCode=hz1h7887" rel="sponsored nofollow noopener" target="_blank">Usar código na Bitget</a></p>
