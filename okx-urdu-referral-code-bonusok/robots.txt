@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://okx-urdu-referral-code-bonusok.vercel.app/sitemap.xml
