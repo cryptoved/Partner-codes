@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bitget-kode-referral-hz1h7887.vercel.app/sitemap.xml
