@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pionex-kode-referral-bonusok.vercel.app/sitemap.xml
