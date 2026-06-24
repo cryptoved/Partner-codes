@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pionex BONUSOK Arabic Banner</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      font-family: Tahoma, Arial, "Segoe UI", sans-serif;
+      background: #f7fbf9;
+    }
+    .canvas {
+      position: relative;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      background: #f7fbf9;
+    }
+    .bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .wash {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.10), rgba(255,255,255,.72) 57%, rgba(255,255,255,.18)),
+        radial-gradient(circle at 84% 20%, rgba(255,255,255,.72), transparent 30%),
+        radial-gradient(circle at 19% 30%, rgba(255,255,255,.78), transparent 25%);
+    }
+    .title-panel {
+      position: absolute;
+      right: 72px;
+      top: 68px;
+      width: 690px;
+      height: 322px;
+      border-radius: 32px;
+      padding: 34px 38px;
+      background: rgba(255,255,255,.92);
+      border: 1px solid rgba(249,115,22,.38);
+      box-shadow: 0 24px 60px rgba(15, 23, 42, .13);
+      text-align: right;
+      direction: rtl;
+    }
+    .eyebrow {
+      font-weight: 900;
+      color: #059669;
+      font-size: 28px;
+      margin-bottom: 18px;
+    }
+    .headline {
+      font-size: 57px;
+      line-height: 1.03;
+      font-weight: 900;
+      letter-spacing: 0;
+      color: #111827;
+      margin: 0 0 22px;
+    }
+    .subhead {
+      font-size: 26px;
+      line-height: 1.22;
+      color: #f05a16;
+      font-weight: 850;
+      margin: 0;
+    }
+    .code-panel {
+      position: absolute;
+      right: 92px;
+      bottom: 104px;
+      width: 470px;
+      height: 122px;
+      border-radius: 22px;
+      padding: 18px 28px;
+      background: rgba(17, 24, 39, .94);
+      border: 1px solid rgba(255,255,255,.16);
+      box-shadow: 0 22px 44px rgba(15,23,42,.28);
+      text-align: right;
+      direction: rtl;
+    }
+    .code-label {
+      font-size: 23px;
+      color: #cbd5e1;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+    .code-value {
+      font-size: 47px;
+      line-height: 1;
+      color: #ff6b00;
+      font-weight: 950;
+      direction: ltr;
+      text-align: right;
+      letter-spacing: 0;
+    }
+    .qr-card {
+      position: absolute;
+      left: 82px;
+      top: 142px;
+      width: 420px;
+      height: 626px;
+      border-radius: 28px;
+      background: #fff;
+      border: 1px solid #d8e1ea;
+      box-shadow: 0 28px 70px rgba(15, 23, 42, .20);
+      padding: 50px 40px 36px;
+      text-align: center;
+      direction: rtl;
+    }
+    .qr-box {
+      width: 340px;
+      height: 340px;
+      margin: 0 auto 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 18px;
+      background: #fff;
+      border: 1px solid #dbe4ec;
+      overflow: hidden;
+    }
+    .qr-box img {
+      width: 340px;
+      height: 340px;
+      object-fit: contain;
+      display: block;
+    }
+    .qr-title {
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 1.18;
+      color: #111827;
+      margin: 0 0 9px;
+    }
+    .qr-subtitle {
+      font-size: 20px;
+      color: #667085;
+      font-weight: 650;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <main class="canvas">
+    <img class="bg" src="assets/pionex-arabic-background.png" alt="">
+    <div class="wash"></div>
+    <section class="title-panel">
+      <div class="eyebrow">دليل PIONEX BONUSOK</div>
+      <h1 class="headline">كود إحالة Pionex<br>للبوتات و xStocks</h1>
+      <p class="subhead">مكافآت حتى 1,000$ + 15% كاش باك رسوم</p>
+    </section>
+    <section class="code-panel">
+      <div class="code-label">كود الإحالة</div>
+      <div class="code-value">BONUSOK</div>
+    </section>
+    <section class="qr-card">
+      <div class="qr-box"><img src="assets/qr-code-BONUSOK-main.png" alt=""></div>
+      <p class="qr-title">امسح أو استخدم BONUSOK</p>
+      <p class="qr-subtitle">تسجيل Pionex الرسمي</p>
+    </section>
+  </main>
+</body>
+</html>
