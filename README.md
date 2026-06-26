@@ -12,6 +12,7 @@ publications.
 - [OKX BONUSOK Urdu Pakistan and India guide](okx-urdu-referral-code-bonusok/)
 - [OKX BONUSOK Indonesian Indonesia guide](okx-kode-referral-bonusok/)
 - [OKX BONUSOK Arabic MENA active trader guide](okx-code-referral-bonusok/)
+- [OKX BONUSOK Polish Poland active trader guide](okx-kod-polecajacy-bonusok/)
 - [Bybit bonusok Japanese Japan guide](bybit-japan-bonusok/)
 - [Bybit bonusok Vietnamese Vietnam active trader guide](bybit-vietnam-bonusok/README.md)
 - [BingX BONUSOK Japanese Japan guide](bingx-japan-bonusok/)
