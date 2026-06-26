@@ -30,6 +30,15 @@ ul,ol { padding-left:1.3rem; }
 .cta { display:inline-block; background:#07110f; color:#fff; text-decoration:none; border-radius:6px; padding:13px 18px; margin:8px 0 18px; }
 code { background:#eef5f1; padding:1px 5px; border-radius:4px; }
 footer { color:var(--muted); font-size:.92rem; border-top:1px solid var(--line); margin-top:44px; padding-top:18px; }
+/* 2026-06-26 mobile overflow QA fix */
+html, body { max-width: 100%; overflow-x: hidden; }
+main, article, section, div, figure, p, li, h1, h2, h3 { min-width: 0; }
+a, code { overflow-wrap: anywhere; word-break: break-word; }
+@media (max-width: 700px) {
+  main { width: 100%; max-width: 100%; padding-left: 18px; padding-right: 18px; }
+  h1, h2, h3, p, li, a, code { overflow-wrap: anywhere; word-break: break-word; }
+  table { display: block; width: 100%; max-width: 100%; overflow-x: auto; }
+}
 </style>
 </head>
 <body>

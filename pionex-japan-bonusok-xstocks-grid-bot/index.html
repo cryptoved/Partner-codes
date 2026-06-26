@@ -82,7 +82,21 @@
       .side-card { position: static; }
       header { padding-top: 18px; }
     }
-  </style>
+  /* 2026-06-26 mobile grid overflow QA fix */
+html, body { max-width: 100%; overflow-x: hidden; }
+.content, .side-card, .notice, article, main, section, div, figure, p, li, h1, h2, h3 { min-width: 0; }
+a, code { overflow-wrap: anywhere; word-break: break-word; }
+@media (max-width: 900px) {
+  article { grid-template-columns: minmax(0, 1fr); }
+  .content { width: 100%; max-width: 100%; }
+  .table-wrap { max-width: 100%; overflow-x: auto; }
+  table { width: max-content; min-width: 680px; }
+}
+@media (max-width: 520px) {
+  .wrap { width: min(100%, calc(100% - 22px)); }
+  .content { padding: 18px 14px; }
+}
+</style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
