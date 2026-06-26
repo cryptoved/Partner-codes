@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bitget-kod-polecajacy-hz1h7887.vercel.app/sitemap.xml
