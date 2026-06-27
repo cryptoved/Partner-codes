@@ -1,0 +1,9 @@
+{
+  "name": "pionex-yaoqingma-bonusok",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render:banner": "node render-banner.js",
+    "qa": "node qa-page.js"
+  }
+}
