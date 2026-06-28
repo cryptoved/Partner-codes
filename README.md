@@ -14,6 +14,7 @@ publications.
 - [OKX BONUSOK Arabic MENA active trader guide](okx-code-referral-bonusok/)
 - [OKX BONUSOK Polish Poland active trader guide](okx-kod-polecajacy-bonusok/)
 - [OKX BONUSOK Simplified Chinese invitation-code guide](okx-yaoqingma-bonusok/)
+- [OKX BONUSOK French global francophone guide](okx-code-parrainage-bonusok/)
 - [Bybit bonusok Japanese Japan guide](bybit-japan-bonusok/)
 - [Bybit bonusok Vietnamese Vietnam active trader guide](bybit-vietnam-bonusok/README.md)
 - [BingX BONUSOK Japanese Japan guide](bingx-japan-bonusok/)
