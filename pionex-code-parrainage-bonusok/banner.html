@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pionex BONUSOK Code de parrainage Banner</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      font-family: Inter, "Segoe UI", Arial, Helvetica, sans-serif;
+      background: #f7fbf9;
+    }
+    .canvas {
+      position: relative;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      background: #f7fbf9;
+    }
+    .bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(1.04) contrast(1.02);
+    }
+    .veil {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.90) 0%, rgba(255,255,255,.42) 43%, rgba(255,255,255,.86) 100%),
+        radial-gradient(circle at 18% 80%, rgba(255, 106, 0, .22), transparent 31%),
+        radial-gradient(circle at 80% 22%, rgba(16, 185, 129, .16), transparent 24%);
+    }
+    .title-panel {
+      position: absolute;
+      left: 70px;
+      top: 64px;
+      width: 790px;
+      height: 340px;
+      border-radius: 30px;
+      padding: 38px 44px;
+      background: rgba(255,255,255,.92);
+      border: 1px solid rgba(249,115,22,.42);
+      box-shadow: 0 24px 64px rgba(15, 23, 42, .16);
+      backdrop-filter: blur(8px);
+    }
+    .eyebrow {
+      font-weight: 900;
+      color: #059669;
+      letter-spacing: .035em;
+      font-size: 26px;
+      margin-bottom: 18px;
+    }
+    .headline {
+      font-size: 58px;
+      line-height: 1.05;
+      font-weight: 950;
+      letter-spacing: 0;
+      color: #111827;
+      margin: 0 0 24px;
+    }
+    .subhead {
+      font-size: 27px;
+      line-height: 1.2;
+      color: #f05a16;
+      font-weight: 850;
+      margin: 0;
+    }
+    .code-panel {
+      position: absolute;
+      left: 94px;
+      bottom: 102px;
+      width: 518px;
+      height: 122px;
+      border-radius: 22px;
+      padding: 20px 30px;
+      background: rgba(17, 24, 39, .94);
+      border: 1px solid rgba(255,255,255,.18);
+      box-shadow: 0 24px 48px rgba(15,23,42,.28);
+    }
+    .code-label {
+      font-size: 23px;
+      color: #cbd5e1;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+    .code-value {
+      font-size: 48px;
+      line-height: 1;
+      color: #ff6b00;
+      font-weight: 950;
+      letter-spacing: 0;
+    }
+    .qr-card {
+      position: absolute;
+      right: 96px;
+      top: 136px;
+      width: 420px;
+      height: 628px;
+      border-radius: 30px;
+      background: #fff;
+      border: 1px solid #d8e1ea;
+      box-shadow: 0 30px 72px rgba(15, 23, 42, .22);
+      padding: 48px 40px 36px;
+      text-align: center;
+    }
+    .qr-box {
+      width: 340px;
+      height: 340px;
+      margin: 0 auto 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 18px;
+      background: #fff;
+      border: 1px solid #dbe4ec;
+    }
+    .qr-box img {
+      width: 340px;
+      height: 340px;
+      object-fit: contain;
+      display: block;
+    }
+    .qr-title {
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 1.13;
+      color: #111827;
+      margin: 0 0 10px;
+    }
+    .qr-subtitle {
+      font-size: 20px;
+      color: #667085;
+      font-weight: 650;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <main class="canvas">
+    <img class="bg" src="assets/pionex-french-background.png" alt="">
+    <div class="veil"></div>
+    <section class="title-panel">
+      <div class="eyebrow">PIONEX BONUSOK GUIDE FRANCOPHONE</div>
+      <h1 class="headline">Code de parrainage Pionex pour traders actifs</h1>
+      <p class="subhead">Jusqu'à $1,000 de bonus + 15% de cashback frais*</p>
+    </section>
+    <section class="code-panel">
+      <div class="code-label">Code de parrainage</div>
+      <div class="code-value">BONUSOK</div>
+    </section>
+    <section class="qr-card">
+      <div class="qr-box"><img src="assets/qr-code-BONUSOK-main.png" alt=""></div>
+      <p class="qr-title">Scannez ou utilisez BONUSOK</p>
+      <p class="qr-subtitle">Inscription Pionex, selon éligibilité</p>
+    </section>
+  </main>
+</body>
+</html>
