@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bitget-code-hz1h7887-filipino.vercel.app/sitemap.xml
