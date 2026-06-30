@@ -6,6 +6,7 @@ publications.
 ## Materials
 
 - [OKX BONUSOK Japanese Japan guide](okx-japan-bonusok/)
+- [OKX BONUSOK Philippines Filipino referral code guide](okx-referral-code-philippines-bonusok/)
 - [OKX BONUSOK Uzbek Uzbekistan eligibility guide](okx-bonusok-uzbekistan/)
 - [OKX BONUSOK Vietnamese Vietnam active trader guide](okx-vietnam-bonusok/)
 - [OKX BONUSOK Portuguese Portugal and Brazil guide](okx-codigo-referencia/)
