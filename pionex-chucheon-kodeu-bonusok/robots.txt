@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pionex-chucheon-kodeu-bonusok.vercel.app/sitemap.xml
