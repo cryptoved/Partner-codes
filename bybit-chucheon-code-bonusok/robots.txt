@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bybit-chucheon-code-bonusok.vercel.app/sitemap.xml
