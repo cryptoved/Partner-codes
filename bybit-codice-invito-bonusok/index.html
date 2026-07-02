@@ -36,8 +36,9 @@
     a { color: #08708b; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
-    .hero { background: #06101e; border-bottom: 1px solid var(--line); }
-    .hero img, .hero picture { display: block; width: 100%; height: auto; }
+    .hero { background: #06101e; border-bottom: 1px solid var(--line); display: flex; justify-content: center; }
+    .hero picture { display: block; width: 100%; }
+    .hero img { display: block; width: min(100%, 1240px); height: auto; margin: 0 auto; }
     .bar { position: sticky; top: 0; z-index: 20; background: rgba(7, 17, 31, .9); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
     .nav { min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
     .brand { color: var(--cyan); font-weight: 900; white-space: nowrap; }
