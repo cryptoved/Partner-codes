@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://okx-codice-referral-bonusok.vercel.app/sitemap.xml
