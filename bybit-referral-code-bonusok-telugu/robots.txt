@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bybit-referral-code-bonusok-telugu.vercel.app/sitemap.xml

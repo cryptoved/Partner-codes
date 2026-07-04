@@ -1,0 +1,9 @@
+{
+  "name": "bybit-referral-code-bonusok-telugu",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {}
+}
