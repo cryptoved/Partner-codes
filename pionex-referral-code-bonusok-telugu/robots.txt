@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pionex-referral-code-bonusok-telugu.vercel.app/sitemap.xml
