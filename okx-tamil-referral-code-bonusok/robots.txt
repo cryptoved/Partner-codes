@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cryptoved.github.io/Partner-codes/okx-tamil-referral-code-bonusok/sitemap.xml
