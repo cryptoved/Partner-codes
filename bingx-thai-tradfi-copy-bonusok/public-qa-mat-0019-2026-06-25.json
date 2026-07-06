@@ -1,0 +1,68 @@
+[
+  {
+    "id": "mat-0019",
+    "exchange": "BingX",
+    "viewport": "desktop",
+    "url": "https://telegra.ph/BingX-BONUSOK--Stock-Carnival-TradFi--Copy-Trading-06-18",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "title": "BingX BONUSOK Thailand – Telegraph",
+    "statusTextLength": 21305,
+    "hasRequired": {
+      "BONUSOK": true,
+      "Disclosure": true,
+      "Risk warning": true,
+      "Thailand": true,
+      "BingX": true
+    },
+    "htmlLang": "",
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "images": [
+      {
+        "src": "https://bingx-thai-tradfi-copy-bonusok.surge.sh/bingx-bonusok-thailand-card320.jpg",
+        "complete": true,
+        "naturalWidth": 320,
+        "naturalHeight": 569,
+        "displayWidth": 320,
+        "displayHeight": 569
+      }
+    ],
+    "imageFailures": [],
+    "noIndex": false,
+    "ok": true
+  },
+  {
+    "id": "mat-0019",
+    "exchange": "BingX",
+    "viewport": "mobile",
+    "url": "https://telegra.ph/BingX-BONUSOK--Stock-Carnival-TradFi--Copy-Trading-06-18",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "title": "BingX BONUSOK Thailand – Telegraph",
+    "statusTextLength": 21305,
+    "hasRequired": {
+      "BONUSOK": true,
+      "Disclosure": true,
+      "Risk warning": true,
+      "Thailand": true,
+      "BingX": true
+    },
+    "htmlLang": "",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "images": [
+      {
+        "src": "https://bingx-thai-tradfi-copy-bonusok.surge.sh/bingx-bonusok-thailand-card320.jpg",
+        "complete": true,
+        "naturalWidth": 320,
+        "naturalHeight": 569,
+        "displayWidth": 320,
+        "displayHeight": 569
+      }
+    ],
+    "imageFailures": [],
+    "noIndex": false,
+    "ok": true
+  }
+]

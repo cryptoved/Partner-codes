@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1600px;
+      height: 900px;
+      font-family: "Leelawadee UI", Tahoma, Arial, sans-serif;
+      background: #071018;
+      color: #f8fbff;
+      overflow: hidden;
+    }
+    .stage {
+      position: relative;
+      width: 1600px;
+      height: 900px;
+      padding: 82px 92px;
+      background:
+        radial-gradient(circle at 82% 16%, rgba(26, 177, 136, .34), transparent 28%),
+        radial-gradient(circle at 12% 78%, rgba(245, 186, 71, .26), transparent 30%),
+        linear-gradient(135deg, #071018 0%, #0d2732 52%, #111827 100%);
+    }
+    .grid {
+      position: absolute;
+      inset: 0;
+      opacity: .17;
+      background-image:
+        linear-gradient(rgba(255,255,255,.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px);
+      background-size: 80px 80px;
+    }
+    .brand {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 34px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    .mark {
+      width: 54px;
+      height: 54px;
+      border-radius: 16px;
+      background: #16c784;
+      display: grid;
+      place-items: center;
+      color: #06110d;
+      font-size: 34px;
+      font-weight: 900;
+    }
+    h1 {
+      position: relative;
+      margin: 76px 0 0;
+      width: 900px;
+      font-size: 76px;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+    .sub {
+      position: relative;
+      width: 830px;
+      margin-top: 30px;
+      color: #d9e9ea;
+      font-size: 31px;
+      line-height: 1.5;
+    }
+    .chips {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      width: 840px;
+      margin-top: 42px;
+    }
+    .chip {
+      border: 1px solid rgba(255,255,255,.2);
+      background: rgba(255,255,255,.08);
+      border-radius: 999px;
+      padding: 14px 22px;
+      color: #f5fafb;
+      font-size: 25px;
+      font-weight: 700;
+    }
+    .panel {
+      position: absolute;
+      right: 92px;
+      top: 112px;
+      width: 430px;
+      min-height: 650px;
+      border-radius: 28px;
+      padding: 30px;
+      background: rgba(248,251,255,.95);
+      color: #101820;
+      box-shadow: 0 34px 80px rgba(0,0,0,.34);
+    }
+    .qrbox {
+      width: 350px;
+      height: 350px;
+      margin: 0 auto;
+      padding: 22px;
+      background: #fff;
+      border-radius: 22px;
+      border: 4px solid #10b981;
+      display: grid;
+      place-items: center;
+    }
+    .qrbox img { width: 300px; height: 300px; display: block; }
+    .code {
+      margin-top: 26px;
+      border: 2px dashed #0d9488;
+      border-radius: 20px;
+      padding: 20px 18px;
+      text-align: center;
+      font-size: 48px;
+      font-weight: 900;
+      letter-spacing: 0;
+      color: #071018;
+    }
+    .small {
+      margin-top: 22px;
+      color: #334155;
+      font-size: 23px;
+      line-height: 1.45;
+      text-align: center;
+    }
+    .note {
+      position: absolute;
+      left: 92px;
+      bottom: 54px;
+      width: 900px;
+      color: #b8c6c8;
+      font-size: 21px;
+      line-height: 1.35;
+    }
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <div class="grid"></div>
+    <div class="brand"><span class="mark">B</span><span>BingX BONUSOK Thailand Guide</span></div>
+    <h1>คู่มือ BingX สำหรับ เทรดเดอร์ไทย ที่เทรดจริง</h1>
+    <p class="sub">Stock Carnival, TradFi, Copy Trading, THB Thai QR และ เช็กลิสต์ ความเสี่ยง ก่อนใช้ โค้ดแนะนำ BONUSOK</p>
+    <div class="chips">
+      <div class="chip">Referral code: BONUSOK</div>
+      <div class="chip">สำหรับผู้ใช้ไทยที่มีสิทธิ์</div>
+      <div class="chip">ไม่มีการรับประกันกำไร</div>
+    </div>
+    <aside class="panel">
+      <div class="qrbox"><img src="bingx_BONUSOK.png" alt="BingX BONUSOK QR code"></div>
+      <div class="code">BONUSOK</div>
+      <p class="small">สแกน เพื่อเปิด ลิงก์แนะนำ BingX อย่างเป็นทางการ ตรวจสอบเงื่อนไข โบนัส KYC และ ประเทศที่รองรับ ก่อนฝากเงิน</p>
+    </aside>
+    <p class="note">Affiliate disclosure: เราอาจได้รับค่าคอมมิชชัน จากการสมัครผ่านลิงก์นี้ การเทรดคริปโต ฟิวเจอร์ส copy trading และ stock futures มีความเสี่ยงสูง</p>
+  </main>
+</body>
+</html>
