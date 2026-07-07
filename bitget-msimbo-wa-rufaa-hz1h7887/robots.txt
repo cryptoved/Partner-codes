@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cryptoved.github.io/Partner-codes/bitget-msimbo-wa-rufaa-hz1h7887/sitemap.xml
