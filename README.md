@@ -25,6 +25,8 @@ publications.
 - [Bitget hz1h7887 Japanese active trader guide](bitget-japan-hz1h7887/)
 - [Bitget hz1h7887 Uzbek Uzbekistan active trader guide](bitget-uzbekistan-hz1h7887/)
 
+- [BingX BONUSOK Swahili Africa active trader guide](bingx-referral-code-bonusok-swahili/)
+
 ## Operating rule
 
 Promotional referral materials belong in this repository. Product analytics,
