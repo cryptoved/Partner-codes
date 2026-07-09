@@ -4,58 +4,62 @@
   <meta charset="utf-8">
   <style>
     * { box-sizing: border-box; }
-    body { margin:0; width:1600px; height:900px; overflow:hidden; font-family: Tahoma, "Segoe UI", Arial, sans-serif; background:#f6faf8; color:#111827; }
-    .canvas { position:relative; width:1600px; height:900px; background:linear-gradient(115deg,#ffffff 0%,#f7fbf8 55%,#fff2ea 100%); }
-    .frame { position:absolute; inset:36px 44px; border:2px solid #d7e7df; border-radius:32px; background:rgba(255,255,255,.88); overflow:hidden; }
-    .wave1 { position:absolute; left:-80px; right:-80px; bottom:132px; height:130px; background:rgba(255,107,26,.18); transform:skewY(-7deg); }
-    .wave2 { position:absolute; left:-60px; right:-60px; bottom:100px; height:36px; border-top:8px solid rgba(5,150,105,.45); border-bottom:10px solid rgba(255,107,26,.55); transform:skewY(-7deg); }
-    .title { position:absolute; right:92px; top:88px; width:664px; min-height:390px; padding:34px 36px; border:3px solid #ff6b1a; border-radius:28px; background:#fff; }
-    .eyebrow { color:#059669; font-weight:900; font-size:28px; margin-bottom:18px; }
-    h1 { margin:0; font-size:58px; line-height:1.18; letter-spacing:0; }
-    .sub { margin-top:22px; color:#5b6678; font-size:28px; line-height:1.55; }
-    .code { position:absolute; right:124px; bottom:102px; width:502px; height:130px; padding:22px 28px; border:3px solid #ff6b1a; border-radius:16px; background:#101827; color:#fff; }
-    .code small { display:block; color:#d9e4dc; font-size:25px; font-weight:800; }
-    .code strong { display:block; color:#ff6b1a; font-size:52px; line-height:1; margin-top:8px; direction:ltr; text-align:right; }
-    .phone { position:absolute; right:782px; top:132px; width:294px; height:522px; border-radius:28px; background:#121a24; border:3px solid #243244; box-shadow:0 25px 60px rgba(16,24,39,.22); }
-    .bar { position:absolute; right:32px; top:40px; width:230px; height:48px; border-radius:10px; background:#1f2b38; }
-    .dots { position:absolute; right:44px; top:138px; display:grid; grid-template-columns:repeat(6,20px); gap:24px 18px; direction:ltr; }
+    body { margin:0; width:1600px; height:900px; overflow:hidden; font-family: Tahoma, "Segoe UI", Arial, sans-serif; background:#eef6f1; color:#111827; }
+    .canvas { position:relative; width:1600px; height:900px; background:
+      radial-gradient(circle at 78% 18%, rgba(255,107,26,.15), transparent 24%),
+      radial-gradient(circle at 18% 86%, rgba(5,150,105,.14), transparent 28%),
+      linear-gradient(135deg,#f8fbf8 0%,#ffffff 52%,#fff3eb 100%); }
+    .shell { position:absolute; left:46px; top:42px; width:1508px; height:816px; border:2px solid #d7e7df; border-radius:28px; background:rgba(255,255,255,.94); overflow:hidden; box-shadow:0 30px 80px rgba(16,24,39,.12); }
+    .grid { position:absolute; inset:0; background-image:linear-gradient(rgba(5,150,105,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(5,150,105,.07) 1px, transparent 1px); background-size:64px 64px; }
+    .accent { position:absolute; left:76px; right:76px; bottom:96px; height:12px; border-radius:999px; background:linear-gradient(90deg,#ff6b1a,#2ee68d,#111827); opacity:.82; }
+    .title { position:absolute; left:104px; top:112px; width:636px; min-height:338px; padding:38px 42px; border:3px solid #ff6b1a; border-radius:24px; background:#fff; box-shadow:0 20px 52px rgba(16,24,39,.10); }
+    .eyebrow { color:#059669; font-weight:900; font-size:27px; margin-bottom:18px; }
+    h1 { margin:0; font-size:60px; line-height:1.18; letter-spacing:0; }
+    .sub { margin-top:22px; color:#5b6678; font-size:27px; line-height:1.58; }
+    .code { position:absolute; left:112px; bottom:142px; width:590px; height:148px; padding:24px 34px; border:3px solid #ff6b1a; border-radius:18px; background:#101827; color:#fff; box-shadow:0 20px 48px rgba(16,24,39,.22); }
+    .code small { display:block; color:#d9e4dc; font-size:26px; font-weight:800; }
+    .code strong { display:block; color:#ff6b1a; font-size:62px; line-height:1; margin-top:8px; direction:ltr; text-align:right; }
+    .terminal { position:absolute; left:782px; top:148px; width:258px; height:500px; border-radius:26px; background:#101827; border:3px solid #263447; box-shadow:0 30px 70px rgba(16,24,39,.24); overflow:hidden; }
+    .terminal::before { content:""; position:absolute; left:30px; top:34px; width:198px; height:44px; border-radius:10px; background:#1f2b38; }
+    .dots { position:absolute; left:38px; top:122px; display:grid; grid-template-columns:repeat(5,20px); gap:20px 17px; direction:ltr; }
     .dots i { display:block; width:20px; height:20px; border-radius:50%; background:#2ee68d; }
     .dots i:nth-child(3n+1) { background:#ff6b1a; }
     .dots i:nth-child(3n+2) { background:#ffd166; }
-    .phone svg { position:absolute; right:28px; top:286px; width:240px; height:180px; }
-    .bot { position:absolute; right:664px; bottom:114px; width:394px; height:136px; border:2px solid #d7e7df; border-radius:20px; background:#fff; padding:26px 30px; }
-    .bot h2 { margin:0 0 18px; color:#059669; font-size:30px; }
-    .bot span { display:inline-block; margin-left:12px; font-size:23px; font-weight:800; }
-    .qr-card { position:absolute; left:130px; top:112px; width:426px; height:674px; border:3px solid #d7e7df; border-radius:30px; background:#fff; text-align:center; padding:60px 38px 28px; box-shadow:0 25px 60px rgba(16,24,39,.14); }
-    .qr-placeholder { width:340px; height:340px; display:block; margin:0 auto 28px; background:#fff; }
-    .qr-title { font-size:30px; line-height:1.35; font-weight:900; color:#111827; }
-    .qr-sub { margin-top:8px; font-size:20px; color:#5b6678; direction:ltr; }
-    .offer { position:absolute; left:22px; right:22px; bottom:36px; border:2px solid #ff6b1a; border-radius:12px; background:#fff8f4; padding:14px 12px; font-size:20px; font-weight:800; direction:ltr; }
+    .terminal svg { position:absolute; left:26px; top:286px; width:206px; height:150px; }
+    .chip { position:absolute; left:760px; bottom:142px; width:308px; height:106px; border:2px solid #d7e7df; border-radius:18px; background:#fff; padding:22px 24px; box-shadow:0 18px 42px rgba(16,24,39,.10); }
+    .chip b { display:block; color:#059669; font-size:28px; margin-bottom:8px; }
+    .chip span { font-size:20px; font-weight:800; margin-left:12px; }
+    .qr-card { position:absolute; right:86px; top:112px; width:380px; height:676px; border-radius:28px; background:#fff; text-align:center; box-shadow:inset 0 0 0 3px #d7e7df, 0 30px 70px rgba(16,24,39,.16); }
+    .qr-frame { position:absolute; left:40px; top:54px; width:300px; height:300px; border-radius:16px; background:#fff; display:flex; align-items:center; justify-content:center; }
+    .qr-img { width:300px; height:300px; display:block; object-fit:contain; }
+    .qr-title { position:absolute; left:34px; right:34px; top:490px; font-size:27px; line-height:1.4; font-weight:900; color:#111827; }
+    .qr-sub { position:absolute; left:34px; right:34px; top:590px; font-size:20px; color:#5b6678; direction:ltr; }
+    .offer { position:absolute; left:28px; right:28px; bottom:34px; border:2px solid #ff6b1a; border-radius:12px; background:#fff8f4; padding:14px 12px; font-size:19px; line-height:1.28; font-weight:900; direction:ltr; }
   </style>
 </head>
 <body>
   <div class="canvas">
-    <div class="frame"></div>
-    <div class="wave1"></div>
-    <div class="wave2"></div>
+    <div class="shell">
+      <div class="grid"></div>
+      <div class="accent"></div>
+    </div>
     <section class="title">
       <div class="eyebrow">راهنمای فارسی PIONEX</div>
-      <h1>کد رفرال پایونکس BONUSOK</h1>
-      <div class="sub">ربات های Grid و DCA، فیوچرز، xStocks و چک لیست ریسک برای کاربران واجد شرایط</div>
+      <h1>کد رفرال Pionex: BONUSOK</h1>
+      <div class="sub">Grid Bot، DCA، Futures Grid و xStocks برای معامله‌گران واجد شرایط</div>
     </section>
-    <section class="code"><small>کد دعوت</small><strong>BONUSOK</strong></section>
-    <section class="phone">
-      <div class="bar"></div>
+    <section class="code"><small>کد دعوت رسمی</small><strong>BONUSOK</strong></section>
+    <section class="terminal">
       <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
       <svg viewBox="0 0 240 180" fill="none">
-        <path d="M5 110 L60 88 L112 125 L170 58 L234 30" stroke="#2ee68d" stroke-width="8" />
-        <path d="M4 154 L72 138 L130 166 L205 116" stroke="#ff6b1a" stroke-width="6" />
+        <path d="M8 118 L62 94 L110 130 L166 54 L230 28" stroke="#2ee68d" stroke-width="9" />
+        <path d="M8 154 L72 140 L128 164 L204 112" stroke="#ff6b1a" stroke-width="7" />
       </svg>
     </section>
-    <section class="bot"><h2>Bot checklist</h2><span>Range</span><span>Fees</span><span>KYC</span><span>Stop</span></section>
+    <section class="chip"><b>Bot checklist</b><span>KYC</span><span>Fees</span><span>Range</span></section>
     <section class="qr-card">
-      <div class="qr-placeholder" aria-label="بنر فارسی کد رفرال پایونکس BONUSOK برای تریدرهای واجد شرایط فارسی زبان، شامل QR رسمی ثبت نام Pionex، کد دعوت BONUSOK، Grid Bot، DCA Bot، Futures Grid، ربات های معاملات کریپتو، xStocks و سهام توکنیزه، پاداش تا 1000 دلار، 15 درصد fee cashback، چک لیست KYC، هشدار ریسک، محدودیت ایران و افغانستان، و راهنمای فعالان بازار در تاجیکستان و دیاسپورای فارسی زبان"></div>
-      <div class="qr-title">اسکن کنید یا از BONUSOK استفاده کنید</div>
+      <div class="qr-frame"><img class="qr-img" src="assets/qr-code-BONUSOK-main.png" alt="بنر فارسی کد رفرال پایونکس BONUSOK برای تریدرهای واجد شرایط فارسی زبان، شامل QR رسمی ثبت نام Pionex، کد دعوت BONUSOK، Grid Bot، DCA Bot، Futures Grid، ربات های معاملات کریپتو، xStocks و سهام توکنیزه، پاداش تا 1000 دلار، 15 درصد fee cashback، چک لیست KYC، هشدار ریسک، محدودیت ایران و افغانستان، و راهنمای فعالان بازار در تاجیکستان و دیاسپورای فارسی زبان"></div>
+      <div class="qr-title">QR ثبت‌نام Pionex</div>
       <div class="qr-sub">Official Pionex signup</div>
       <div class="offer">Up to $1,000 bonus + 15% fee cashback</div>
     </section>
