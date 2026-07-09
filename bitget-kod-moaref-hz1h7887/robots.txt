@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cryptoved.github.io/Partner-codes/bitget-kod-moaref-hz1h7887/sitemap.xml
