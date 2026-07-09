@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cryptoved.github.io/Partner-codes/bingx-kod-davat-bonusok-farsi/sitemap.xml
