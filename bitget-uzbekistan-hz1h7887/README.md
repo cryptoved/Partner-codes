@@ -2,7 +2,7 @@
 
 **O'zbekiston auditoriyasi uchun Bitget AI, UEX, copy trading va bonus shartlarini tekshirish bo'yicha amaliy qo'llanma.**
 
-<img src="bitget-uzbekistan-github-preview.png" alt="Bitget referal kodi hz1h7887 uchun O'zbekiston treyderlari AI UEX va copy trading preview rasmi" width="340">
+<img src="bitget-uzbekistan-ai-uex-hz1h7887-cover.png" alt="Bitget referal kodi hz1h7887 uchun O'zbekiston treyderlari AI UEX va copy trading cover rasmi, ichida tekshirilgan QR kod" width="1200">
 
 [To'liq cover rasmini ochish](bitget-uzbekistan-ai-uex-hz1h7887-cover.png)
 
