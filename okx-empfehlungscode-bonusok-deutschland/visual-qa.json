@@ -1,0 +1,77 @@
+{
+  "generated_at_utc": "2026-07-10T08:37:14.250187+00:00",
+  "public_url": "https://cryptoved.github.io/Partner-codes/okx-empfehlungscode-bonusok-deutschland/",
+  "source_qr": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\OKX\\outputs\\qr-code-BONUSOK.png",
+  "source_qr_decoded": "https://www.okx.com/join/BONUSOK",
+  "hero": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\OKX\\work\\okx-empfehlungscode-bonusok-deutschland\\assets\\okx-bonusok-german-empfehlungscode-hero.png",
+  "hero_decoded": "https://www.okx.com/join/BONUSOK",
+  "hero_layout": {
+    "canvas": [
+      1600,
+      900
+    ],
+    "text_panel": [
+      84,
+      74,
+      870,
+      790
+    ],
+    "qr_card": [
+      1034,
+      108,
+      1518,
+      786
+    ],
+    "qr_box": [
+      1110,
+      190,
+      1442,
+      522
+    ],
+    "placed_qr": [
+      1110,
+      190,
+      1442,
+      522
+    ],
+    "code_panel": [
+      116,
+      690,
+      650,
+      810
+    ],
+    "subtitle_max_width": 640,
+    "subtitle_lines": [
+      "MiCA, KYC, Campaign Center, Agent Trade",
+      "Kit, X-Perps und Risikocheck vor der ersten",
+      "Einzahlung."
+    ]
+  },
+  "compact": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\OKX\\work\\okx-empfehlungscode-bonusok-deutschland\\assets\\okx-bonusok-german-compact-qr.png",
+  "compact_decoded": "https://www.okx.com/join/BONUSOK",
+  "compact_layout": {
+    "canvas": [
+      560,
+      640
+    ],
+    "qr_card": [
+      82,
+      156,
+      478,
+      552
+    ],
+    "qr_box": [
+      122,
+      196,
+      438,
+      512
+    ],
+    "placed_qr": [
+      122,
+      196,
+      438,
+      512
+    ]
+  },
+  "article_word_count_source": 2145
+}
