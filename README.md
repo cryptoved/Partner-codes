@@ -5,6 +5,7 @@ publications.
 
 ## Materials
 
+- [Binance bonusok German status and active-trader guide](binance-empfehlungscode-bonusok-deutsch/)
 - [OKX BONUSOK Japanese Japan guide](okx-japan-bonusok/)
 - [OKX BONUSOK Philippines Filipino referral code guide](okx-referral-code-philippines-bonusok/)
 - [OKX BONUSOK Uzbek Uzbekistan eligibility guide](okx-bonusok-uzbekistan/)
