@@ -1,0 +1,114 @@
+{
+  "generated_at_utc": "2026-07-11T04:46:15.250301+00:00",
+  "public_url": "https://cryptoved.github.io/Partner-codes/okx-referans-kodu-bonusok-turkiye/",
+  "source_qr": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\OKX\\outputs\\qr-code-BONUSOK.png",
+  "source_qr_decoded": "https://www.okx.com/join/BONUSOK",
+  "desktop_hero": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\OKX\\work\\okx-referans-kodu-bonusok-turkiye\\assets\\okx-bonusok-turkish-referans-kodu-hero.png",
+  "desktop_hero_decoded": "https://www.okx.com/join/BONUSOK",
+  "desktop_layout": {
+    "canvas": [
+      1600,
+      900
+    ],
+    "text_panel": [
+      84,
+      72,
+      870,
+      802
+    ],
+    "qr_card": [
+      1034,
+      108,
+      1518,
+      796
+    ],
+    "qr_box": [
+      1110,
+      184,
+      1442,
+      516
+    ],
+    "placed_qr": [
+      1110,
+      184,
+      1442,
+      516
+    ],
+    "code_panel": [
+      116,
+      692,
+      650,
+      810
+    ],
+    "subtitle_max_width": 610,
+    "subtitle_lines": [
+      "TRY, KYC, Campaign Center, Agent Trade",
+      "Kit, X-Perps ve risk kontrolü."
+    ]
+  },
+  "mobile_hero": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\OKX\\work\\okx-referans-kodu-bonusok-turkiye\\assets\\okx-bonusok-turkish-referans-kodu-mobile.png",
+  "mobile_hero_decoded": "https://www.okx.com/join/BONUSOK",
+  "mobile_layout": {
+    "canvas": [
+      900,
+      1300
+    ],
+    "text_panel": [
+      54,
+      54,
+      846,
+      575
+    ],
+    "qr_card": [
+      116,
+      624,
+      784,
+      1228
+    ],
+    "qr_box": [
+      250,
+      712,
+      650,
+      1112
+    ],
+    "placed_qr": [
+      250,
+      712,
+      650,
+      1112
+    ],
+    "code_panel": [
+      104,
+      484,
+      796,
+      596
+    ]
+  },
+  "compact": "C:\\Users\\Саша\\Documents\\Partner progs\\exchanges\\OKX\\work\\okx-referans-kodu-bonusok-turkiye\\assets\\okx-bonusok-turkish-compact-qr.png",
+  "compact_decoded": "https://www.okx.com/join/BONUSOK",
+  "compact_layout": {
+    "canvas": [
+      560,
+      640
+    ],
+    "qr_card": [
+      82,
+      156,
+      478,
+      552
+    ],
+    "qr_box": [
+      122,
+      196,
+      438,
+      512
+    ],
+    "placed_qr": [
+      122,
+      196,
+      438,
+      512
+    ]
+  },
+  "article_word_count_source": 2109
+}
