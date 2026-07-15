@@ -5,6 +5,7 @@ publications.
 
 ## Materials
 
+- [BingX Copy Trading 2.0 execution-audit guide for Brazil](bingx-copy-trading-auditoria-brasil/)
 - [Binance bonusok German status and active-trader guide](binance-empfehlungscode-bonusok-deutsch/)
 - [OKX BONUSOK Japanese Japan guide](okx-japan-bonusok/)
 - [OKX BONUSOK Philippines Filipino referral code guide](okx-referral-code-philippines-bonusok/)

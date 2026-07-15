@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cryptoved.github.io/Partner-codes/bingx-copy-trading-auditoria-brasil/sitemap.xml
