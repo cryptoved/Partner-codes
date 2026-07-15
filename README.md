@@ -20,6 +20,7 @@ publications.
 - [Bybit bonusok Japanese Japan guide](bybit-japan-bonusok/)
 - [Bybit bonusok Vietnamese Vietnam active trader guide](bybit-vietnam-bonusok/README.md)
 - [BingX BONUSOK Japanese Japan guide](bingx-japan-bonusok/)
+- [BingX BONUSOK Azerbaijan active trader guide](bingx-referal-kodu-bonusok/)
 - [Pionex BONUSOK Uzbek Uzbekistan active trader guide](pionex-uzbek-bonusok/)
 - [Pionex BONUSOK Vietnamese Vietnam guide](https://htmlpreview.github.io/?https://github.com/cryptoved/Partner-codes/blob/pionex-vietnam-bonusok-v2/pionex-vietnam-bonusok/index.html)
 - [Pionex BONUSOK Philippines Filipino referral code guide](pionex-referral-code-philippines-bonusok/)
