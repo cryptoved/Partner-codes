@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cryptoved.github.io/Partner-codes/bingx-preflight-kyc-code-parrainage/sitemap.xml
