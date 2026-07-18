@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OKX现货网格计算器：手续费、网格间距与单格净利润</title>
+  <meta name="description" content="免费计算OKX现货网格的等差或等比间距、买卖两次手续费、预估滑点、单格净利润和价格越界风险。含BONUSOK推荐码、KYC与地区资格核对清单。">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://cryptoved.github.io/Partner-codes/okx-xianhuo-wangge-jisuanqi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://cryptoved.github.io/Partner-codes/okx-xianhuo-wangge-jisuanqi/">
+  <link rel="alternate" hreflang="x-default" href="https://cryptoved.github.io/Partner-codes/okx-xianhuo-wangge-jisuanqi/">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="OKX现货网格净利润计算器：先算费用，再定间距">
+  <meta property="og:description" content="把网格区间、数量、两次手续费和滑点放进一个本地计算器，识别看似活跃但净收益过薄的参数。">
+  <meta property="og:url" content="https://cryptoved.github.io/Partner-codes/okx-xianhuo-wangge-jisuanqi/">
+  <meta property="og:image" content="https://cryptoved.github.io/Partner-codes/okx-xianhuo-wangge-jisuanqi/assets/okx-xianhuo-wangge-jisuanqi-zh-hans-desktop.png">
+  <style>
+    :root{--ink:#0b0e0c;--paper:#f4f7f3;--white:#fff;--lime:#a8f51f;--red:#ef4538;--muted:#59625b;--line:#d5ddd5;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;line-height:1.75;letter-spacing:0}a{color:#286800;text-underline-offset:3px;overflow-wrap:anywhere}img{display:block;max-width:100%;height:auto}.wrap{width:min(var(--max),calc(100% - 32px));margin:auto}.topbar{background:#080b09;color:#fff;border-bottom:3px solid var(--lime)}.topbar .wrap{min-height:58px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800}.topbar a{color:#dcffa0;font-size:14px}.hero{background:#080b09;display:grid;place-items:center}.hero picture{display:block;width:100%}.hero img{width:auto;max-width:100%;height:auto;max-height:calc(100vh - 58px);margin:auto;object-fit:contain}.crumbs{font-size:14px;color:var(--muted);padding-top:22px}.crumbs a{color:#496847}main{padding-bottom:76px}h1{font-size:clamp(36px,6vw,62px);line-height:1.15;margin:18px 0;max-width:980px}h2{font-size:clamp(27px,4vw,40px);line-height:1.3;margin:62px 0 18px}h3{font-size:23px;line-height:1.35;margin:32px 0 10px}p,li{font-size:18px}.lead{font-size:21px;color:#364039;max-width:940px}.badges{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}.badge{border:1px solid #78936e;background:#fbfff7;padding:5px 10px;font-size:14px;font-weight:700}.notice{background:#fff;border-left:5px solid var(--lime);padding:18px 20px;margin:24px 0}.notice.risk{border-color:var(--red)}.tool{background:#0a0e0b;color:#fff;border:1px solid #344036;padding:30px;margin:32px 0}.tool h2{margin:0 0 8px;font-size:32px}.tool>p{color:#cbd3cc}.controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}.field{display:flex;flex-direction:column;gap:7px}.field label{font-size:14px;font-weight:800;color:#e2e8e3}.field input,.field select{width:100%;min-height:48px;border:1px solid #667169;background:#151a16;color:#fff;padding:10px 12px;font:inherit;border-radius:0}.field small{font-size:13px;color:#9ea9a1}.results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:24px}.metric{background:#171d18;border-top:3px solid var(--lime);padding:16px;min-height:116px}.metric.warn{border-color:var(--red)}.metric span{display:block;color:#abb5ad;font-size:13px}.metric strong{display:block;font-size:25px;margin-top:8px;overflow-wrap:anywhere}.verdict{margin-top:16px;padding:16px;background:#111713;border-left:5px solid var(--lime)}.verdict.warn{border-color:var(--red)}.checks{display:grid;gap:10px;margin:24px 0}.check{display:flex;align-items:flex-start;gap:10px;background:#151a16;padding:12px}.check input{width:20px;height:20px;margin-top:4px;accent-color:var(--lime)}.cta-button{display:inline-block;background:#5a635b;color:#d8ded9;text-decoration:none;font-weight:900;padding:14px 20px;pointer-events:none}.cta-button.ready{background:var(--lime);color:#10140e;pointer-events:auto}.fine{font-size:13px;color:#9fa9a1}.formula{font-family:Consolas,monospace;background:#edf2ec;border:1px solid var(--line);padding:16px;overflow:auto}.steps{counter-reset:step;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.step{background:#fff;border-top:4px solid var(--lime);padding:20px}.step:before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:36px;height:36px;background:#0c100d;color:#fff;font-weight:900;margin-bottom:14px}.table-scroll{overflow:auto}.compare{width:100%;border-collapse:collapse;background:#fff;min-width:760px}.compare th,.compare td{text-align:left;border:1px solid var(--line);padding:13px}.compare th{background:#0e130f;color:#fff}.compare td:first-child{font-weight:800}.cta-band{margin-top:60px;background:#090d0a;color:#fff;padding:34px}.cta-grid{display:grid;grid-template-columns:1fr 280px;gap:30px;align-items:center}.cta-band h2{margin:0 0 12px}.cta-band p{color:#d1d8d2}.qr{background:#fff;border:3px solid var(--lime);padding:10px}.disclosure{font-size:14px!important;color:#b4beb6!important}.sources li{margin:10px 0}.faq details{background:#fff;border:1px solid var(--line);padding:16px 18px;margin:10px 0}.faq summary{cursor:pointer;font-size:18px;font-weight:800}footer{border-top:1px solid var(--line);padding:34px 0;color:var(--muted);font-size:14px}
+    @media(max-width:820px){.topbar .wrap{align-items:flex-start;flex-direction:column;padding:12px 0}.controls{grid-template-columns:1fr 1fr}.results{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.cta-grid{grid-template-columns:1fr}.qr{width:min(320px,100%);margin:auto}.tool{padding:20px}p,li{font-size:17px}}
+    @media(max-width:520px){.controls,.results{grid-template-columns:1fr}h1{font-size:38px}.wrap{width:min(var(--max),calc(100% - 24px))}}
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"OKX现货网格净利润计算器","url":"https://cryptoved.github.io/Partner-codes/okx-xianhuo-wangge-jisuanqi/","applicationCategory":"FinanceApplication","operatingSystem":"Web","inLanguage":"zh-Hans","description":"计算现货网格间距、两次手续费、预估滑点、单格净利润和越界风险的本地工具。","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"网格数量越多，收益一定越高吗？","acceptedAnswer":{"@type":"Answer","text":"不一定。网格越密，单格毛间距通常越小，而每次买卖仍会产生费用。若毛间距不能覆盖两次手续费和滑点，更多成交也可能只增加成本。"}},{"@type":"Question","name":"计算器结果是否代表OKX实际收益？","acceptedAnswer":{"@type":"Answer","text":"不是。结果只是基于用户输入的估算。实际费率、成交角色、价格、滑点、最小下单量、未配对持仓和市场变化都可能不同。"}},{"@type":"Question","name":"BONUSOK保证奖励吗？","acceptedAnswer":{"@type":"Answer","text":"不保证。推荐活动、任务、奖励和产品资格取决于居住地、KYC、账户和注册时显示的实时页面。"}}]}</script>
+</head>
+<body>
+  <header class="topbar"><div class="wrap"><div class="brand">独立现货网格参数实验室</div><a href="#calculator">直接进入计算器</a></div></header>
+  <section class="hero">
+    <picture>
+      <source media="(max-width:640px)" srcset="assets/okx-xianhuo-wangge-jisuanqi-zh-hans-mobile.png">
+      <img src="assets/okx-xianhuo-wangge-jisuanqi-zh-hans-desktop.png" width="1600" height="900" alt="OKX现货网格净利润计算器主图，展示绿色网格价格区间、红色越界风险提示、推荐码 BONUSOK 和指向官方 OKX 注册页面的真实二维码，适用于先核对地区与产品资格的中文用户。">
+    </picture>
+  </section>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="面包屑"><a href="/Partner-codes/">Partner Codes</a> / OKX现货网格计算器</nav>
+    <h1>OKX现货网格计算器：先算单格净利润，再决定网格间距</h1>
+    <p class="lead">把区间切得更细，成交次数可能增加，但每一格可赚取的价格差也会缩小。真正需要比较的不是“有多少格”，而是最保守一格的毛间距能否覆盖买入手续费、卖出手续费、两侧滑点以及实际成交误差。本页让这些参数在启动策略前变得可见。</p>
+    <div class="badges"><span class="badge">zh-Hans</span><span class="badge">现货网格</span><span class="badge">等差 / 等比</span><span class="badge">两次手续费</span><span class="badge">越界检查</span></div>
+
+    <div class="notice"><strong>为什么做这个工具：</strong>OKX官方帮助中心会解释现货网格、总盈亏、网格利润和手续费，但每个账户、币对与成交时刻的实际条件不同。这里不读取账户，也不预测价格，只把你输入的参数转换为一个可审计的启动前估算。</div>
+    <div class="notice risk"><strong>资格与风险：</strong>本页只面向居住在OKX及现货网格依法可用地区的中文用户，不宣称中国大陆或任何受限地区可用。必须使用真实居住地和本人身份完成KYC，并以账户内实际显示的产品和费率为准。禁止VPN绕过、虚假KYC、借用账户、刷量或洗售。数字资产价格可能大幅波动，网格策略也可能亏损。</div>
+
+    <section class="tool" id="calculator" aria-labelledby="calculator-title">
+      <h2 id="calculator-title">现货网格净利润与间距计算器</h2>
+      <p>计算完全在浏览器本地完成，不上传输入。默认值只是示例，不是参数建议。</p>
+      <div class="controls">
+        <div class="field"><label for="lower">区间最低价</label><input id="lower" type="number" min="0.00000001" step="any" value="90000"></div>
+        <div class="field"><label for="upper">区间最高价</label><input id="upper" type="number" min="0.00000001" step="any" value="110000"></div>
+        <div class="field"><label for="current">当前参考价</label><input id="current" type="number" min="0.00000001" step="any" value="100000"></div>
+        <div class="field"><label for="grids">网格数量</label><input id="grids" type="number" min="2" max="500" step="1" value="20"></div>
+        <div class="field"><label for="mode">网格模式</label><select id="mode"><option value="geometric">等比网格</option><option value="arithmetic">等差网格</option></select></div>
+        <div class="field"><label for="amount">单次成交名义金额（USDT）</label><input id="amount" type="number" min="0.01" step="any" value="100"></div>
+        <div class="field"><label for="buyFee">买入手续费率 %</label><input id="buyFee" type="number" min="0" step="0.001" value="0.100"><small>使用账户实时费率，不要照抄示例。</small></div>
+        <div class="field"><label for="sellFee">卖出手续费率 %</label><input id="sellFee" type="number" min="0" step="0.001" value="0.100"></div>
+        <div class="field"><label for="slippage">单侧预估滑点 %</label><input id="slippage" type="number" min="0" step="0.001" value="0.020"></div>
+      </div>
+
+      <div class="results" aria-live="polite">
+        <div class="metric"><span>保守单格毛间距</span><strong id="grossGap">—</strong></div>
+        <div class="metric"><span>两次费用与滑点</span><strong id="roundCost">—</strong></div>
+        <div class="metric" id="netMetric"><span>估算单格净收益率</span><strong id="netRate">—</strong></div>
+        <div class="metric"><span>每次完整网格估算净额</span><strong id="netAmount">—</strong></div>
+        <div class="metric"><span>覆盖成本的最低间距</span><strong id="breakEven">—</strong></div>
+        <div class="metric" id="rangeMetric"><span>当前价与区间</span><strong id="rangeState">—</strong></div>
+      </div>
+      <div class="verdict" id="verdict">输入有效参数后，这里会给出启动前结论。</div>
+
+      <div class="checks">
+        <label class="check"><input id="eligibility" type="checkbox"><span>我已确认真实居住地、KYC、账户和所选现货网格产品当前可用。</span></label>
+        <label class="check"><input id="feesChecked" type="checkbox"><span>我已在登录后的OKX账户中核对当前币对的实际费率，并理解计算结果不保证收益。</span></label>
+      </div>
+      <a class="cta-button" id="qualifiedCta" href="https://www.okx.com/join/BONUSOK" rel="sponsored nofollow" aria-disabled="true" data-event="qualified_referral_click">核对完成后使用 BONUSOK 查看注册页</a>
+      <p class="fine">广告/联盟披露：若你符合条件并通过此链接注册，我们可能获得佣金；这不会保证奖励、折扣、KYC通过、成交或收益。推荐码必须在创建账户时填写，注册后通常无法补加。</p>
+    </section>
+
+    <h2>计算器到底在防什么错误？</h2>
+    <p>最常见的参数错误是把“成交频率”当成“净收益”。例如，把同一价格区间从20格增加到100格，每格之间的价格差会明显缩小。与此同时，一组完整网格仍需要一次买入和一次卖出，实际成交还可能包含滑点。若单格毛收益只剩0.15%，而买卖费率合计0.20%，即使不计滑点，该组订单也已经没有正的费用后空间。</p>
+    <p>本工具的“保守单格毛间距”使用区间中百分比最薄的一格作为近似：等比模式每格百分比相同；等差模式越接近区间上沿，固定价差占价格的比例越小，因此使用顶部附近的一格进行保守估算。这样做不会预测真实成交，但比只看平均价差更适合做启动前筛选。</p>
+    <div class="formula">估算单格净收益率 = 保守毛间距% − 买入费率% − 卖出费率% − 2 × 单侧滑点%</div>
+
+    <h2>网格利润不等于策略总盈亏</h2>
+    <p>OKX官方说明将策略结果拆成网格利润、未配对盈亏与总盈亏。某一组低买高卖订单完成后，网格利润可以为正，但如果市场持续下跌，尚未配对卖出的基础资产可能产生较大的浮动亏损。此时总盈亏可能仍然为负。反过来，初始化订单、实际成交价和理论网格价之间的差异，也可能让单组展示值与直觉不同。</p>
+    <p>因此，评估策略不能只截图“网格利润”。至少要同时记录初始权益、当前总权益、已完成网格利润、未配对盈亏、费用、区间外停留时间和停止策略后的资产处理。真正的判断对象是总权益变化，而不是某一个看起来漂亮的子指标。</p>
+
+    <h2>等差网格和等比网格如何选择？</h2>
+    <div class="table-scroll"><table class="compare">
+      <thead><tr><th>比较点</th><th>等差网格</th><th>等比网格</th></tr></thead>
+      <tbody>
+        <tr><td>每格结构</td><td>固定价格差</td><td>固定百分比</td></tr>
+        <tr><td>高价区域</td><td>同样价差对应的百分比更小</td><td>每格百分比大致一致</td></tr>
+        <tr><td>适合检查</td><td>重点查看顶部最薄一格是否覆盖成本</td><td>重点查看固定比例是否覆盖成本</td></tr>
+        <tr><td>主要误区</td><td>只看平均价差，忽略上沿净收益变薄</td><td>忽略实际下单精度、最小金额和成交误差</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>价格离开区间后会发生什么？</h2>
+    <p>网格策略依赖价格在设定区间内反复经过多个层级。当价格跌破下限，策略可能停止继续完成常规网格，账户则保留更多基础资产并承受浮动亏损。价格突破上限时，也可能停止原区间内的循环并保留更多计价资产。Trailing Up 或 Trailing Down 可以改变区间行为，但它们也会改变资金需求、止盈止损关系和风险边界，不能把“自动移动”理解为自动盈利。</p>
+    <p>启动前应先写下三个停止条件：价格条件、最大可接受总权益回撤、最长运行时间。若没有停止条件，网格很容易从一项区间策略变成被动长期持仓。停止时还要核对平台是否会以市价处理剩余资产，以及流动性不足时可能产生的滑点。</p>
+
+    <h2>15分钟启动前审计</h2>
+    <div class="steps">
+      <div class="step"><h3>先确认产品资格</h3><p>用真实居住地与本人KYC登录，确认现货网格入口、目标币对和推荐活动在账户中可见。若页面提示地区或产品受限，停止，不绕过。</p></div>
+      <div class="step"><h3>读取实际费率</h3><p>在账户费率页或交易页读取当前Maker/Taker费率。限价单不一定始终是Maker，实际成交角色决定费用。</p></div>
+      <div class="step"><h3>检查最小下单量</h3><p>网格过多会让每格分配金额变小。确认目标币对的最小金额、数量精度和价格精度，避免大量订单无法创建或留下微小余额。</p></div>
+      <div class="step"><h3>输入保守滑点</h3><p>不要把滑点固定为零。根据目标币对深度、订单规模和波动时段输入保守值，并分别测试正常与压力场景。</p></div>
+      <div class="step"><h3>写下区间失效条件</h3><p>记录下限、上限、止损、最大回撤和最长运行时间。价格离开区间并不等于策略仍在按原假设工作。</p></div>
+      <div class="step"><h3>先用小额验证</h3><p>第一轮只验证订单初始化、成交角色、费用、未配对盈亏和停止流程。确认账单与计算假设一致后，再决定是否继续。</p></div>
+    </div>
+
+    <h2>如何记录一轮网格策略</h2>
+    <p>建议每次测试建立一行日志，字段包括：币对、时间、区间、网格数、模式、初始权益、账户费率、预估滑点、完成网格数、网格利润、未配对盈亏、总盈亏、最大回撤、区间外小时数和停止原因。七天后，不要只比较收益率，还要比较每单位回撤、每100次成交产生的费用以及策略占用资金的效率。</p>
+    <p>如果工具被频繁使用但没有形成第一笔合资格的小额策略，问题可能在产品资格、参数门槛或CTA位置；如果有启动但七天留存很低，说明策略假设或风险控制需要调整，而不是继续复制更多邀请码页面。</p>
+
+    <h2>推荐码 BONUSOK 的正确使用方式</h2>
+    <p>推荐码的作用是把新账户归因到特定邀请关系，不代表每个用户都有同样的奖励。OKX官方规则说明，任务、周期、奖励数量、锁定期和资格可能因账户与地区不同。用户必须在注册时使用邀请链接或填写代码，创建账户后通常不能补加或更改。任何奖励都应以注册页和账户活动中心实时显示为准。</p>
+    <p>不要为了完成任务制造无经济意义的交易，也不要使用多个账户、他人身份、虚假资料或洗售。即使某项活动显示奖励，手续费、价差、滑点和市场损失也可能高于奖励价值。</p>
+
+    <section class="cta-band" id="eligibility-cta">
+      <div class="cta-grid">
+        <div>
+          <h2>先完成资格与成本核对，再访问注册页</h2>
+          <p>推荐码：<strong>BONUSOK</strong>。注册链接只适用于OKX、推荐活动及相关产品在真实居住地依法可用，并能通过本人KYC的用户。</p>
+          <a class="cta-button ready" href="https://www.okx.com/join/BONUSOK" rel="sponsored nofollow">打开OKX官方注册页并查看实时资格</a>
+          <p><a href="https://www.okx.com/zh-hans/trading-bot/grid/1220251104000001?channelid=bonusok" rel="sponsored nofollow">已有合资格账户：打开OKX现货网格页面并再次核对产品权限</a></p>
+          <p class="disclosure">广告/联盟披露：我们可能从符合条件的注册与后续活动中获得佣金。没有保证奖励、返现、交易结果或收益。</p>
+        </div>
+        <img class="qr" src="assets/okx-bonusok-qr-card-zh-hans.png" width="640" height="720" loading="lazy" alt="OKX推荐码BONUSOK二维码卡片，真实二维码指向官方注册页面，并提示用户先核对居住地、KYC和活动资格。">
+      </div>
+    </section>
+
+    <h2>官方资料与进一步核对</h2>
+    <ul class="sources">
+      <li><a href="https://www.okx.com/zh-hans/help/spot-grid-bot-faq">OKX：现货网格策略常见问答</a></li>
+      <li><a href="https://www.okx.com/zh-hans/help/i-spot-grid">OKX：现货网格说明</a></li>
+      <li><a href="https://www.okx.com/zh-hans/help/how-do-total-profit-and-loss-pnl-and-grid-profits-work">OKX：总收益、网格收益与未配对收益</a></li>
+      <li><a href="https://www.okx.com/zh-hans/help/trading-fee-rules-faq">OKX：交易手续费常见问题</a></li>
+      <li><a href="https://www.okx.com/zh-hans/help/what-is-okx-referral-program">OKX：邀请好友规则说明</a></li>
+      <li><a href="https://www.okx.com/zh-hans/help/terms-of-service">OKX：服务条款</a></li>
+      <li><a href="https://www.okx.com/zh-hans/help/risk-compliance-disclosure">OKX：风险披露和免责声明</a></li>
+    </ul>
+
+    <section class="faq">
+      <h2>常见问题</h2>
+      <details><summary>网格数量越多，收益一定越高吗？</summary><p>不一定。更多网格通常意味着更小的单格价差，而每次完整网格仍包含买入和卖出费用。净收益必须在扣除费用与滑点后仍为正。</p></details>
+      <details><summary>为什么使用“保守单格毛间距”？</summary><p>等差网格在高价区域的百分比间距更薄。用顶部附近的一格估算，可以更早发现参数被切得过密的问题，但它仍不是实际成交保证。</p></details>
+      <details><summary>现货网格是否会亏损？</summary><p>会。价格持续离开区间、未配对持仓下跌、费用、滑点、最小下单限制和停止时的市价处理都可能造成损失。</p></details>
+      <details><summary>BONUSOK是否保证奖励？</summary><p>不保证。奖励和任务取决于地区、账户、活动周期与注册页面。先核对资格，再决定是否注册或交易。</p></details>
+    </section>
+  </main>
+  <footer><div class="wrap">独立信息与计算工具，不属于OKX。最后核对官方资料：2026年7月18日。结果仅供参数审计，不构成投资、法律、税务或财务建议。</div></footer>
+
+  <script>
+    const ids=["lower","upper","current","grids","mode","amount","buyFee","sellFee","slippage"];
+    const el=Object.fromEntries(ids.map(id=>[id,document.getElementById(id)]));
+    const out={grossGap:document.getElementById("grossGap"),roundCost:document.getElementById("roundCost"),netRate:document.getElementById("netRate"),netAmount:document.getElementById("netAmount"),breakEven:document.getElementById("breakEven"),rangeState:document.getElementById("rangeState")};
+    const netMetric=document.getElementById("netMetric"),rangeMetric=document.getElementById("rangeMetric"),verdict=document.getElementById("verdict"),eligibility=document.getElementById("eligibility"),feesChecked=document.getElementById("feesChecked"),cta=document.getElementById("qualifiedCta");
+    const num=id=>Number(el[id].value);
+    const pct=v=>Number.isFinite(v)?v.toFixed(3)+"%":"—";
+    function calculate(){
+      const lower=num("lower"),upper=num("upper"),current=num("current"),grids=Math.floor(num("grids")),amount=num("amount"),buyFee=num("buyFee"),sellFee=num("sellFee"),slippage=num("slippage"),mode=el.mode.value;
+      const valid=lower>0&&upper>lower&&current>0&&grids>=2&&grids<=500&&amount>0&&buyFee>=0&&sellFee>=0&&slippage>=0;
+      if(!valid){Object.values(out).forEach(x=>x.textContent="—");verdict.textContent="请修正区间、网格数量和费用输入。";verdict.classList.add("warn");updateCta(false);return;}
+      let gross;
+      if(mode==="geometric"){gross=(Math.pow(upper/lower,1/grids)-1)*100;}else{const step=(upper-lower)/grids;gross=step/(upper-step)*100;}
+      const costs=buyFee+sellFee+2*slippage;
+      const net=gross-costs;
+      const cash=amount*net/100;
+      const inRange=current>=lower&&current<=upper;
+      const toLow=(current-lower)/current*100;
+      const toHigh=(upper-current)/current*100;
+      out.grossGap.textContent=pct(gross);
+      out.roundCost.textContent=pct(costs);
+      out.netRate.textContent=pct(net);
+      out.netAmount.textContent=(cash>=0?"":"−")+Math.abs(cash).toFixed(4)+" USDT";
+      out.breakEven.textContent=pct(costs)+" 以上";
+      out.rangeState.textContent=inRange?"区间内 · 下沿 "+toLow.toFixed(2)+"% / 上沿 "+toHigh.toFixed(2)+"%":"区间外";
+      netMetric.classList.toggle("warn",net<=0);rangeMetric.classList.toggle("warn",!inRange);
+      const pass=net>0&&inRange;
+      verdict.classList.toggle("warn",!pass);
+      verdict.textContent=!inRange?"当前参考价已在所选区间之外：不要按原参数启动，先重新检查区间假设。":net<=0?"保守单格毛间距无法覆盖两次手续费与滑点：减少网格数量、扩大区间或重新核对费率，但不要把调整理解为收益保证。":"参数通过第一层成本筛选：净收益估算为正且当前价位于区间内。仍需检查最小下单量、实际费率、总盈亏风险与停止条件。";
+      updateCta(pass);
+      document.documentElement.dataset.event="grid_calc_complete";
+    }
+    function updateCta(calcPass){const ready=calcPass&&eligibility.checked&&feesChecked.checked;cta.classList.toggle("ready",ready);cta.setAttribute("aria-disabled",String(!ready));}
+    ids.forEach(id=>el[id].addEventListener("input",calculate));eligibility.addEventListener("change",calculate);feesChecked.addEventListener("change",calculate);calculate();
+  </script>
+</body>
+</html>
