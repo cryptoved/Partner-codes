@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <title>حاسبة Pionex Grid Bot بالعربية: هامش الشبكة بعد الرسوم</title>
+  <meta name="description" content="حاسبة عربية مجانية لتقدير تباعد Pionex Grid Bot وهامش الدورة بعد رسوم التداول والانزلاق ورأس المال لكل مستوى، مع خطة توقف وتحذير أهلية واضح.">
+  <link rel="canonical" href="https://cryptoved.github.io/Partner-codes/pionex-grid-bot-calculator-arabic/">
+  <link rel="alternate" hreflang="ar" href="https://cryptoved.github.io/Partner-codes/pionex-grid-bot-calculator-arabic/">
+  <link rel="alternate" hreflang="x-default" href="https://cryptoved.github.io/Partner-codes/pionex-grid-bot-calculator-arabic/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:title" content="حاسبة جدوى Pionex Grid Bot بعد الرسوم">
+  <meta property="og:description" content="اختبر نطاق الشبكة وعدد المستويات والرسوم والانزلاق وحد الإيقاف قبل تشغيل Spot Grid Bot.">
+  <meta property="og:url" content="https://cryptoved.github.io/Partner-codes/pionex-grid-bot-calculator-arabic/">
+  <meta property="og:image" content="https://cryptoved.github.io/Partner-codes/pionex-grid-bot-calculator-arabic/pionex-grid-bot-calculator-ar-hero-desktop.png">
+  <meta property="og:image:alt" content="حاسبة Pionex Grid Bot بالعربية تعرض آلة شبكية ميكانيكية مضيئة، رمز الإحالة BONUSOK، ورمز QR حقيقي يقود إلى صفحة التسجيل الرسمية للمستخدمين المؤهلين.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="حاسبة Pionex Grid Bot بالعربية">
+  <meta name="twitter:description" content="احسب تباعد الشبكة وهامش الدورة بعد الرسوم قبل تشغيل البوت.">
+  <meta name="twitter:image" content="https://cryptoved.github.io/Partner-codes/pionex-grid-bot-calculator-arabic/pionex-grid-bot-calculator-ar-hero-desktop.png">
+  <meta name="twitter:image:alt" content="حاسبة Pionex Grid Bot بالعربية تعرض آلة شبكية ميكانيكية مضيئة، رمز الإحالة BONUSOK، ورمز QR حقيقي يقود إلى صفحة التسجيل الرسمية للمستخدمين المؤهلين.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #101820;
+      --muted: #53636b;
+      --paper: #f7faf9;
+      --white: #ffffff;
+      --line: #d7e2df;
+      --cyan: #087d8c;
+      --coral: #d95743;
+      --lime: #4f7d18;
+      --dark: #07131b;
+      --warning: #fff4e8;
+      --danger: #fff0ed;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, "Segoe UI", Tahoma, sans-serif; line-height: 1.85; }
+    a { color: var(--cyan); overflow-wrap: anywhere; }
+    img { max-width: 100%; height: auto; }
+    .wrap { width: min(1120px, calc(100% - 32px)); margin-inline: auto; }
+    .topbar { background: var(--dark); color: #fff; border-bottom: 3px solid #45d3df; }
+    .topbar .wrap { min-height: 58px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .brand { font-weight: 800; direction: ltr; letter-spacing: 0; }
+    .toplink { color: #d8f8fa; text-decoration: none; font-size: 14px; }
+    .hero { background: #06131b; }
+    .hero picture, .hero img { display: block; width: 100%; }
+    .hero img { max-height: min(76vh, 900px); object-fit: cover; object-position: center; }
+    .intro-band { background: var(--white); border-bottom: 1px solid var(--line); }
+    .intro { padding: 46px 0; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr); gap: 42px; align-items: start; }
+    h1, h2, h3 { line-height: 1.35; letter-spacing: 0; }
+    h1 { margin: 0 0 14px; font-size: clamp(34px, 5vw, 58px); }
+    h2 { margin: 0 0 18px; font-size: clamp(27px, 3.4vw, 40px); }
+    h3 { margin: 28px 0 8px; font-size: 23px; }
+    .lead { color: var(--muted); font-size: 20px; margin: 0; }
+    .disclosure { border-inline-start: 4px solid var(--coral); padding: 16px 18px; background: var(--danger); color: #5c2e27; }
+    .disclosure strong { color: #842d20; }
+    .section { padding: 66px 0; }
+    .section.white { background: var(--white); border-block: 1px solid var(--line); }
+    .section p, .section li { font-size: 17px; }
+    .section p { color: #2d3b42; }
+    .kicker { margin: 0 0 8px; color: var(--cyan); font-weight: 800; font-size: 15px; }
+    .calculator { display: grid; grid-template-columns: minmax(0, .9fr) minmax(320px, 1.1fr); gap: 34px; align-items: stretch; }
+    .tool, .results { border: 1px solid var(--line); border-radius: 8px; background: var(--white); }
+    .tool { padding: 28px; }
+    .results { padding: 28px; background: var(--dark); color: #fff; }
+    .field-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    label { display: grid; gap: 6px; color: #324248; font-weight: 700; font-size: 14px; }
+    input, select { width: 100%; min-height: 46px; border: 1px solid #b8c8c5; border-radius: 5px; background: #fff; color: var(--ink); padding: 9px 12px; font: inherit; direction: ltr; text-align: left; }
+    input:focus, select:focus { outline: 3px solid rgba(8,125,140,.18); border-color: var(--cyan); }
+    .result-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 24px; }
+    .metric { min-height: 116px; padding: 18px; border: 1px solid rgba(255,255,255,.16); border-radius: 6px; background: rgba(255,255,255,.055); }
+    .metric span { display: block; color: #b9cbd0; font-size: 14px; }
+    .metric strong { display: block; margin-top: 8px; color: #fff; font-size: 28px; direction: ltr; text-align: right; }
+    .verdict { margin-top: 18px; padding: 16px; border-radius: 6px; background: rgba(79,125,24,.28); border: 1px solid rgba(169,229,96,.45); color: #e9ffd2; }
+    .formula { color: #a9bac0; font-size: 14px; margin-top: 20px; }
+    .warning { padding: 20px; background: var(--warning); border-inline-start: 4px solid #d38b35; color: #63421b; }
+    .risk { padding: 22px; background: var(--danger); border-inline-start: 4px solid var(--coral); color: #5e2921; }
+    .steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 26px; }
+    .step { padding: 22px; border-top: 4px solid var(--cyan); background: #fff; }
+    .step:nth-child(2) { border-color: var(--coral); }
+    .step:nth-child(3) { border-color: var(--lime); }
+    .step b { display: block; margin-bottom: 9px; font-size: 19px; }
+    .table-scroll { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 700px; background: #fff; }
+    th, td { border: 1px solid var(--line); padding: 14px; text-align: right; vertical-align: top; }
+    th { background: #eaf4f3; }
+    .cta-band { padding: 62px 0; background: var(--dark); color: #fff; }
+    .cta-grid { display: grid; grid-template-columns: 1fr 300px; gap: 38px; align-items: center; }
+    .cta-band h2 { color: #fff; }
+    .cta-band p { color: #c9d9dd; }
+    .eligibility { display: flex; gap: 10px; align-items: flex-start; margin: 22px 0; color: #e3edef; }
+    .eligibility input { width: 20px; min-height: 20px; margin-top: 5px; accent-color: var(--cyan); }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 50px; padding: 12px 22px; border: 0; border-radius: 5px; background: var(--coral); color: #fff; text-decoration: none; font-weight: 800; cursor: pointer; }
+    .button[aria-disabled="true"] { opacity: .45; cursor: not-allowed; }
+    .qr-panel { padding: 20px; background: #fff; border-radius: 8px; text-align: center; color: var(--ink); }
+    .qr-panel img { display: block; width: 240px; height: 240px; margin: 0 auto; object-fit: contain; }
+    .code { direction: ltr; color: var(--coral); font-size: 30px; font-weight: 900; }
+    .sources { columns: 2; column-gap: 32px; }
+    .sources li { break-inside: avoid; margin-bottom: 10px; }
+    footer { padding: 34px 0; background: #02090e; color: #9fb0b7; font-size: 14px; }
+    @media (max-width: 780px) {
+      .topbar .wrap { align-items: flex-start; padding-block: 13px; }
+      .intro, .calculator, .cta-grid { grid-template-columns: 1fr; }
+      .field-grid, .result-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .section { padding: 48px 0; }
+      .hero img { max-height: none; object-fit: contain; }
+      .sources { columns: 1; }
+      .qr-panel { width: min(100%, 320px); margin-inline: auto; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "حاسبة جدوى Pionex Grid Bot بالعربية",
+    "url": "https://cryptoved.github.io/Partner-codes/pionex-grid-bot-calculator-arabic/",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Any",
+    "inLanguage": "ar",
+    "description": "أداة تعليمية لتقدير تباعد شبكة Spot Grid Bot والاحتكاك الناتج عن الرسوم والانزلاق وهامش الأمان.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"هل تضمن الحاسبة ربح Grid Bot؟","acceptedAnswer":{"@type":"Answer","text":"لا. الحاسبة تقدّر التباعد والرسوم فقط، ولا تتنبأ بالسعر أو عدد الدورات أو السيولة أو الربح الفعلي."}},
+      {"@type":"Question","name":"هل كثرة مستويات الشبكة أفضل دائماً؟","acceptedAnswer":{"@type":"Answer","text":"لا. زيادة المستويات تقلل المسافة بين الأوامر، وقد تجعل هامش الدورة صغيراً مقارنة بالرسوم والانزلاق."}},
+      {"@type":"Question","name":"هل رمز BONUSOK يضمن مكافأة؟","acceptedAnswer":{"@type":"Answer","text":"لا. شروط الإحالة والخصم والأهلية يحددها Pionex وقد تختلف حسب الحساب والبلد والوقت. تحقّق داخل صفحة التسجيل والحساب قبل الإيداع."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand">PIONEX GRID LAB</div>
+      <a class="toplink" href="#calculator">انتقل إلى الحاسبة</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="صورة حاسبة Pionex Grid Bot">
+      <picture>
+        <source media="(max-width: 620px)" srcset="pionex-grid-bot-calculator-ar-hero-mobile.png">
+        <img src="pionex-grid-bot-calculator-ar-hero-desktop.png" width="1600" height="900" alt="حاسبة Pionex Grid Bot بالعربية تعرض آلة شبكية ميكانيكية مضيئة، رمز الإحالة BONUSOK، ورمز QR حقيقي يقود إلى صفحة التسجيل الرسمية للمستخدمين المؤهلين.">
+      </picture>
+    </section>
+
+    <section class="intro-band">
+      <div class="wrap intro">
+        <div>
+          <p class="kicker">أداة قرار قبل تشغيل البوت</p>
+          <h1>حاسبة جدوى Pionex Grid Bot بعد الرسوم</h1>
+          <p class="lead">اختبر ما إذا كان تباعد شبكتك يترك هامشاً نظرياً بعد رسمتي الشراء والبيع والانزلاق المتوقع، ثم حدّد ما سيحدث إذا خرج السعر من النطاق.</p>
+        </div>
+        <aside class="disclosure">
+          <strong>إفصاح إحالة:</strong> تحتوي الصفحة على رابط إحالة Pionex ورمز BONUSOK. قد نحصل على عمولة إذا سجّلت وتداولت. لا يرفع ذلك السعر الذي تعرضه الحاسبة، ولا نعد بمكافأة أو ربح. راجع الشروط والأهلية داخل حسابك.
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="calculator">
+      <div class="wrap calculator">
+        <div class="tool">
+          <p class="kicker">أدخل افتراضاتك، لا توقعاتنا</p>
+          <h2>معلمات الشبكة</h2>
+          <div class="field-grid">
+            <label>الحد الأدنى للسعر
+              <input id="lower" type="number" min="0.00000001" step="any" value="60000">
+            </label>
+            <label>الحد الأعلى للسعر
+              <input id="upper" type="number" min="0.00000001" step="any" value="72000">
+            </label>
+            <label>عدد مستويات الشبكة
+              <input id="grids" type="number" min="2" max="500" step="1" value="30">
+            </label>
+            <label>طريقة التباعد
+              <select id="mode">
+                <option value="arithmetic">حسابي: فرق سعري ثابت</option>
+                <option value="geometric">هندسي: نسبة ثابتة</option>
+              </select>
+            </label>
+            <label>رأس المال التجريبي USDT
+              <input id="capital" type="number" min="0" step="any" value="1000">
+            </label>
+            <label>رسم كل تنفيذ %
+              <input id="fee" type="number" min="0" max="10" step="0.001" value="0.05">
+            </label>
+            <label>انزلاق تقديري لكل تنفيذ %
+              <input id="slippage" type="number" min="0" max="10" step="0.001" value="0.02">
+            </label>
+            <label>سعر إيقاف الخسارة المخطط
+              <input id="stop" type="number" min="0" step="any" value="57000">
+            </label>
+          </div>
+          <p class="formula">الافتراض المبسّط: دورة شبكة واحدة تتضمن شراءً وبيعاً، لذلك نطرح الرسم والانزلاق مرتين. النتيجة لا تشمل تغير دفتر الأوامر أو الضرائب أو انقطاع السيولة أو تنفيذ stop-loss بسعر مختلف.</p>
+        </div>
+
+        <div class="results" aria-live="polite">
+          <p class="kicker">قراءة فورية قابلة للتعديل</p>
+          <h2>نتيجة السيناريو</h2>
+          <div class="result-grid">
+            <div class="metric"><span>تباعد المستوى</span><strong id="spacing">400.00</strong></div>
+            <div class="metric"><span>الهامش الإجمالي لكل دورة</span><strong id="gross">0.606%</strong></div>
+            <div class="metric"><span>الاحتكاك: رسوم + انزلاق</span><strong id="friction">0.140%</strong></div>
+            <div class="metric"><span>الهامش النظري بعد الاحتكاك</span><strong id="net">0.466%</strong></div>
+            <div class="metric"><span>رأس المال التقريبي لكل مستوى</span><strong id="perGrid">32.26 USDT</strong></div>
+            <div class="metric"><span>المسافة بين الحد الأدنى ووقف الخسارة</span><strong id="stopBuffer">5.00%</strong></div>
+          </div>
+          <div class="verdict" id="verdict">يوجد هامش حسابي بعد الافتراضات المدخلة، لكنه ليس توقعاً للربح.</div>
+          <p class="formula" id="summary">نطاق 60,000 إلى 72,000، عدد 30 شبكة، ورأس مال 1,000 USDT.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white">
+      <div class="wrap">
+        <p class="kicker">لماذا هذه الحاسبة موجودة؟</p>
+        <h2>المشكلة ليست تشغيل البوت، بل معرفة ما إذا كانت الشبكة ضيقة أكثر من اللازم</h2>
+        <p>يضع Spot Grid Bot أوامر شراء وبيع داخل نطاق تختاره. عندما تزيد عدد الشبكات داخل النطاق نفسه، تصبح المسافة بين المستويات أصغر. هذا قد يزيد عدد الفرص النظرية، لكنه يقلل الهامش الخام في كل دورة. إذا اقترب الهامش من مجموع رسوم الشراء والبيع والانزلاق، يمكن أن ينفذ البوت أوامر كثيرة من دون أن يبقى فرق مريح بعد التكلفة.</p>
+        <p>الأداة لا تحاول اختيار عملة أو نطاق نيابة عنك. مهمتها أضيق وأكثر فائدة: تحويل الإعدادات إلى أرقام يمكن مناقشتها قبل الإيداع. غيّر عدد الشبكات، ثم راقب الهامش النظري. ارفع تقدير الانزلاق إذا كان الزوج ضعيف السيولة. ضع stop-loss تحت الحد الأدنى وشاهد مقدار المسافة المتاحة. إذا لم تتمكن من شرح النتيجة بجملة بسيطة، فلا تطلق البوت بعد.</p>
+        <div class="warning"><strong>تنبيه مهم:</strong> الربح الفعلي لا يساوي الهامش النظري مضروباً في عدد المستويات. قد لا يعبر السعر المستوى كاملاً، وقد يخرج من النطاق، وقد يتسع السبريد أو يتراكم مركز خاسر في الأصل الأساسي. الحساب أداة فحص أولي فقط.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="kicker">طريقة استخدام عملية</p>
+        <h2>ثلاث قرارات قبل أول Spot Grid Bot</h2>
+        <div class="steps">
+          <div class="step"><b>1. اختر نطاقاً له سبب</b><p>استخدم حركة سعرية يمكن تفسيرها، لا رقماً عشوائياً. دوّن لماذا تتوقع بقاء السعر داخل النطاق، وما الحدث الذي يبطل هذه الفكرة.</p></div>
+          <div class="step"><b>2. اختبر حساسية الرسوم</b><p>شغّل السيناريو بقيمة رسم محدثة من حسابك، ثم ارفع الانزلاق. إذا اختفى الهامش بسرعة، فالشبكة قد تكون شديدة الضيق.</p></div>
+          <div class="step"><b>3. خطط لخروج النطاق</b><p>حدد stop-loss أو قرار الإيقاف اليدوي قبل التشغيل. لا تنتظر أن يتحول الخروج من النطاق إلى مركز كبير غير مخطط.</p></div>
+        </div>
+        <h3>الحسابي مقابل الهندسي</h3>
+        <p>في الوضع الحسابي يكون الفرق السعري بين المستويات ثابتاً. يناسب ذلك نطاقاً ضيقاً نسبياً عندما تريد رؤية مبلغ الفرق بوضوح. في الوضع الهندسي تكون النسبة المئوية بين المستويات ثابتة، وهو أسهل للمقارنة عندما يكون النطاق واسعاً. Pionex يوضح النوعين ضمن إعدادات Grid Trading Bot، لكن اختيار الوضع لا يلغي ضرورة فحص الرسوم والسيولة وحد الخسارة.</p>
+        <h3>لماذا نستخدم رسم 0.05% كقيمة افتراضية؟</h3>
+        <p>تذكر مواد Pionex الحديثة رسماً أساسياً قدره 0.05% لبعض تداولات spot، كما تذكر أن استخدام Grid Bot نفسه لا يحتاج اشتراكاً منفصلاً. لكن معدل حسابك أو المنتج أو الزوج قد يختلف، وقد تتغير الأسعار. لذلك القيمة قابلة للتعديل وليست وعداً تعاقدياً. افتح صفحة الرسوم داخل حسابك قبل التداول واستخدم الرقم الذي تراه هناك.</p>
+      </div>
+    </section>
+
+    <section class="section white">
+      <div class="wrap">
+        <p class="kicker">قراءة النتيجة</p>
+        <h2>متى تكون الإشارة خضراء أو حذرة أو غير صالحة؟</h2>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>الحالة</th><th>ماذا تعني</th><th>الإجراء المعقول</th></tr></thead>
+            <tbody>
+              <tr><td>الهامش النظري أكبر بوضوح من الاحتكاك</td><td>يوجد فرق حسابي بعد الرسم والانزلاق المدخلين، لكن التنفيذ الفعلي ما زال غير مضمون.</td><td>اختبر بحجم صغير، وراقب fills الفعلية والسبريد وخروج النطاق.</td></tr>
+              <tr><td>الهامش قريب من الاحتكاك</td><td>تغيير صغير في السيولة أو الانزلاق قد يستهلك الفرق.</td><td>قلل عدد الشبكات أو وسّع النطاق أو اختر زوجاً أكثر سيولة، ثم أعد الحساب.</td></tr>
+              <tr><td>الهامش صفر أو سالب</td><td>الافتراضات لا تترك فرقاً بعد التكلفة المبسطة.</td><td>لا تطلق الإعداد كما هو. أعد تصميمه بدلاً من الاعتماد على كثرة الصفقات.</td></tr>
+              <tr><td>وقف الخسارة داخل النطاق</td><td>خطة الخروج تتعارض مع مجال عمل الشبكة.</td><td>راجع النطاق وموضع الإيقاف وافهم كيف يغلق البوت الأصول عند التفعيل.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="kicker">مخاطر لا تظهر في المعادلة</p>
+        <h2>الشبكة تعمل داخل النطاق، بينما السوق غير ملزم بالبقاء داخله</h2>
+        <p>إذا هبط السعر تحت الحد الأدنى، قد يتوقف البوت عن إنشاء دورات جديدة ويصبح رصيدك أكثر تعرضاً للأصل الأساسي. إذا ارتفع السعر فوق الحد الأعلى، قد ينتهي بك الأمر بكمية أكبر من USDT وتفوت استمرار الصعود. لا تمثل الحالتان خطأ برمجياً بالضرورة؛ إنهما نتيجة مباشرة لطبيعة الشبكة المحدودة.</p>
+        <p>السيولة أيضاً ليست رقماً ثابتاً. قد يتسع السبريد حول الأخبار أو أثناء حركة قوية، وقد يختلف التنفيذ عن السعر المتوقع. الأصول الصغيرة أو الأزواج الجديدة قد تعطي تذبذباً أكبر، لكن هذا لا يعني أن كل تذبذب قابل للتحويل إلى دورة مربحة. استخدم تقدير انزلاق محافظاً، ولا تضع رأس المال كله في بوت واحد.</p>
+        <p>هذه الأداة تخص Spot Grid Bot التعليمي ولا تحسب التصفية أو funding أو leverage. Futures Grid وLeveraged Grid يحملان مخاطر إضافية، منها خسارة الهامش والتصفية والفائدة أو funding. إذا كنت لا تستطيع حساب أثر الرافعة يدوياً، ابدأ بالـspot أو اكتفِ بالمراقبة.</p>
+        <div class="risk"><strong>تحذير مخاطر:</strong> العملات الرقمية والتداول الآلي قد يؤديان إلى خسارة جزء كبير أو كامل رأس المال. لا توجد أرباح مضمونة. البوت ينفذ القواعد التي تحددها ولا يفهم قدرتك الشخصية على تحمل الخسارة. هذه الصفحة تعليمية وليست نصيحة استثمارية أو قانونية أو ضريبية.</div>
+      </div>
+    </section>
+
+    <section class="section white">
+      <div class="wrap">
+        <p class="kicker">الأهلية والبلد</p>
+        <h2>اللغة العربية لا تعني أن الخدمة متاحة في كل دولة عربية</h2>
+        <p>قبل التسجيل، افحص قائمة Pionex الحالية للدول وأرقام الهواتف وعمليات KYC غير المدعومة. في القائمة الرسمية التي راجعناها بتاريخ 18 يوليو 2026 ظهرت دول ذات جمهور عربي أو ناطق بالعربية مثل اليمن ولبنان وليبيا والسودان والصومال، إضافة إلى دول أخرى مثل إيران وأفغانستان، ضمن المناطق غير المدعومة لخدمات الهاتف أو التحقق من الهوية. قد تتغير القائمة في أي وقت.</p>
+        <p>عدم ظهور بلدك في قائمة غير المدعوم لا يساوي ترخيصاً محلياً ولا ضماناً لتوفر كل منتج. افحص شروط Pionex، القواعد المحلية، دعم KYC، طرق الإيداع والسحب، وإتاحة Spot Grid Bot في حسابك. لا تستخدم VPN أو عنواناً مزيفاً أو وثائق شخص آخر ولا تحاول تجاوز القيود. إذا لم تستطع إكمال التسجيل بمعلوماتك الحقيقية، فلا تودع.</p>
+        <p>المستخدمون في مصر أو العراق أو دول الخليج أو أي منطقة عربية أخرى يجب أن يجروا التحقق نفسه. هذه الصفحة موجهة فقط للمستخدمين البالغين المؤهلين في المناطق التي تسمح لهم قواعد Pionex والقانون المحلي باستخدام الخدمة.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <p class="kicker">دفتر تشغيل صغير</p>
+        <h2>ما الذي تسجله بعد إطلاق اختبار محدود؟</h2>
+        <ol>
+          <li>الزوج، وقت التشغيل، الحد الأدنى والأعلى، عدد الشبكات وطريقة التباعد.</li>
+          <li>رسم التنفيذ الفعلي ومتوسط الانزلاق من سجل الأوامر، لا من الافتراض فقط.</li>
+          <li>عدد الدورات المكتملة، grid profit، الربح أو الخسارة غير المحققة وصافي النتيجة بعد الرسوم.</li>
+          <li>عدد الساعات خارج النطاق، والقرار الذي اتخذته عند الخروج.</li>
+          <li>سبب الإيقاف: تحقق الهدف، كسر النطاق، تغير الفكرة، ارتفاع السبريد أو بلوغ الحد الأقصى للخسارة.</li>
+        </ol>
+        <p>قارن هذه الأرقام بنتيجة الحاسبة. إذا كان الانزلاق الفعلي أعلى، حدّث الافتراض في الاختبار التالي. إذا ظل السعر خارج النطاق معظم الوقت، فالمشكلة قد تكون في اختيار السوق أو النطاق، لا في عدد الشبكات. الهدف هو تحسين القرار، وليس البحث عن إعداد سحري.</p>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap cta-grid">
+        <div>
+          <p class="kicker">خطوة التحويل المقصودة</p>
+          <h2>افحص الأهلية أولاً، ثم افتح Pionex وانتقل إلى Spot Grid Bot</h2>
+          <p>رابط BONUSOK رابط إحالة. قد تختلف أي خصومات أو مكافآت حسب إعداد المُحيل وشروط الحساب والبلد والوقت. لا تودع اعتماداً على إعلان؛ تحقق مما يظهر في صفحة التسجيل والحساب.</p>
+          <label class="eligibility"><input id="eligible" type="checkbox"><span>أؤكد أنني سأستخدم بيانات KYC الحقيقية، وسأتحقق من أهلية بلدي وإتاحة المنتج والرسوم الحالية قبل الإيداع.</span></label>
+          <a id="referralCta" class="button" href="https://partner.pionex.com/p/BONUSOK" rel="sponsored nofollow noopener" aria-disabled="true">فتح Pionex باستخدام BONUSOK</a>
+        </div>
+        <aside class="qr-panel">
+          <img src="qr-code-BONUSOK-main.png" width="1148" height="1148" alt="رمز QR حقيقي للتسجيل في Pionex باستخدام رمز الإحالة BONUSOK للمستخدمين المؤهلين">
+          <div class="code">BONUSOK</div>
+          <small>تحقق من الرابط والرمز قبل إكمال التسجيل.</small>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section white">
+      <div class="wrap">
+        <h2>أسئلة شائعة</h2>
+        <h3>هل تضمن الحاسبة ربح Grid Bot؟</h3>
+        <p>لا. تحسب الأداة تباعداً واحتكاكاً مبسطاً، ولا تتوقع السعر أو عدد الدورات أو التنفيذ الفعلي. يمكن أن تخسر حتى إذا كان الهامش النظري موجباً.</p>
+        <h3>هل كثرة مستويات الشبكة أفضل دائماً؟</h3>
+        <p>لا. المستويات الأكثر تعني مسافة أصغر غالباً. إذا أصبح الفرق قريباً من رسمتي التنفيذ والانزلاق، قد تكون الشبكة نشطة لكن ضعيفة بعد التكلفة.</p>
+        <h3>هل رمز BONUSOK يضمن مكافأة أو خصماً ثابتاً؟</h3>
+        <p>لا. تشرح قواعد الإحالة الرسمية أن جزءاً من عمولة المُحيل قد يخصص كخصم للصديق، لكن النسبة والشروط والأهلية قد تختلف. تحقق من صفحة التسجيل والحساب، ولا تعتمد على مبلغ قديم منشور في صفحة خارجية.</p>
+        <h3>هل هذه الحاسبة مناسبة لـFutures Grid؟</h3>
+        <p>لا. الحاسبة الحالية مخصصة لفحص Spot Grid بصورة مبسطة. العقود الدائمة تضيف funding والرافعة والتصفية وأنواع أوامر مختلفة، وتحتاج نموذج مخاطر آخر.</p>
+        <h3>ما أهم رقم أراجعه بعد التشغيل؟</h3>
+        <p>لا تكتفِ بـgrid profit. راجع صافي النتيجة بعد الرسوم، والخسارة غير المحققة، ووقت بقاء السعر خارج النطاق، والانزلاق الفعلي. قد يبدو grid profit موجباً بينما القيمة الإجمالية أقل بسبب حركة الأصل.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>المصادر الرسمية التي راجعناها</h2>
+        <ul class="sources">
+          <li><a href="https://www.pionex.com/blog/grid-bot-parameters/">Pionex: Grid Bot Parameters Explained, updated June 2026</a></li>
+          <li><a href="https://www.pionex.com/blog/grid-bot-setup/">Pionex: Grid Bot Setup Guide 2026</a></li>
+          <li><a href="https://support.pionex.com/hc/en-us/articles/45085712163225-Grid-Trading-Bot">Pionex Help Center: Grid Trading Bot settings</a></li>
+          <li><a href="https://www.pionex.com/blog/is-there-a-fee-for-using-the-gridbot-on-pionex/">Pionex: Grid Bot fee explanation</a></li>
+          <li><a href="https://www.pionex.com/blog/pionex-affiliate-program-2/">Pionex: referral and affiliate rules, updated June 2026</a></li>
+          <li><a href="https://support.pionex.com/hc/en-us/articles/5929910517273-List-of-Unsupported-Countries-Regions-Phone-Numbers-KYC-Verification">Pionex: unsupported phone and KYC regions</a></li>
+        </ul>
+        <p><small>آخر تحقق تحريري: 18 يوليو 2026. المصادر الرسمية قد تتغير؛ راجع حسابك وصفحات Pionex قبل اتخاذ قرار.</small></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">مادة تعليمية مستقلة تتضمن رابط إحالة. ليست صفحة رسمية لـPionex وليست توصية استثمارية. الأهلية والمنتجات والرسوم والمخاطر تختلف حسب المستخدم والبلد والوقت.</div>
+  </footer>
+
+  <script>
+    const ids = ['lower', 'upper', 'grids', 'mode', 'capital', 'fee', 'slippage', 'stop'];
+    const el = Object.fromEntries(ids.map((id) => [id, document.getElementById(id)]));
+    const out = {
+      spacing: document.getElementById('spacing'),
+      gross: document.getElementById('gross'),
+      friction: document.getElementById('friction'),
+      net: document.getElementById('net'),
+      perGrid: document.getElementById('perGrid'),
+      stopBuffer: document.getElementById('stopBuffer'),
+      verdict: document.getElementById('verdict'),
+      summary: document.getElementById('summary'),
+    };
+    const number = (value) => Number(value) || 0;
+    const fmt = new Intl.NumberFormat('en-US', { maximumFractionDigits: 4 });
+
+    function calculate() {
+      const lower = number(el.lower.value);
+      const upper = number(el.upper.value);
+      const grids = Math.max(2, Math.round(number(el.grids.value)));
+      const capital = Math.max(0, number(el.capital.value));
+      const fee = Math.max(0, number(el.fee.value));
+      const slippage = Math.max(0, number(el.slippage.value));
+      const stop = Math.max(0, number(el.stop.value));
+      const valid = lower > 0 && upper > lower && grids >= 2;
+      if (!valid) {
+        out.verdict.textContent = 'أدخل حداً أعلى أكبر من الحد الأدنى، وأسعاراً موجبة، وشبكتين على الأقل.';
+        out.verdict.style.background = 'rgba(217,87,67,.28)';
+        return;
+      }
+      const midpoint = (lower + upper) / 2;
+      const arithmeticSpacing = (upper - lower) / grids;
+      const geometricPct = (Math.pow(upper / lower, 1 / grids) - 1) * 100;
+      const grossPct = el.mode.value === 'geometric' ? geometricPct : (arithmeticSpacing / midpoint) * 100;
+      const frictionPct = 2 * (fee + slippage);
+      const netPct = grossPct - frictionPct;
+      const spacingText = el.mode.value === 'geometric' ? geometricPct.toFixed(3) + '%' : fmt.format(arithmeticSpacing);
+      const perGrid = capital / (grids + 1);
+      const stopBuffer = stop > 0 ? ((lower - stop) / lower) * 100 : 0;
+      out.spacing.textContent = spacingText;
+      out.gross.textContent = grossPct.toFixed(3) + '%';
+      out.friction.textContent = frictionPct.toFixed(3) + '%';
+      out.net.textContent = netPct.toFixed(3) + '%';
+      out.perGrid.textContent = fmt.format(perGrid) + ' USDT';
+      out.stopBuffer.textContent = stop > 0 ? stopBuffer.toFixed(2) + '%' : 'غير محدد';
+      out.summary.textContent = `نطاق ${fmt.format(lower)} إلى ${fmt.format(upper)}، عدد ${grids} شبكة، ورأس مال ${fmt.format(capital)} USDT.`;
+      if (stop >= lower && stop > 0) {
+        out.verdict.textContent = 'وقف الخسارة داخل النطاق أو فوق حده الأدنى. راجع خطة الخروج قبل التشغيل.';
+        out.verdict.style.background = 'rgba(217,87,67,.28)';
+      } else if (netPct <= 0) {
+        out.verdict.textContent = 'الاحتكاك يستهلك الهامش النظري في هذا السيناريو. لا تطلق الإعداد كما هو.';
+        out.verdict.style.background = 'rgba(217,87,67,.28)';
+      } else if (netPct < frictionPct) {
+        out.verdict.textContent = 'الهامش المتبقي قريب من التكلفة وقد يختفي مع انزلاق أعلى. اختبر شبكة أوسع.';
+        out.verdict.style.background = 'rgba(211,139,53,.28)';
+      } else {
+        out.verdict.textContent = 'يوجد هامش حسابي بعد الافتراضات المدخلة، لكنه ليس توقعاً للربح.';
+        out.verdict.style.background = 'rgba(79,125,24,.28)';
+      }
+    }
+    ids.forEach((id) => el[id].addEventListener('input', calculate));
+    calculate();
+
+    const eligible = document.getElementById('eligible');
+    const cta = document.getElementById('referralCta');
+    eligible.addEventListener('change', () => cta.setAttribute('aria-disabled', String(!eligible.checked)));
+    cta.addEventListener('click', (event) => {
+      if (!eligible.checked) event.preventDefault();
+    });
+  </script>
+</body>
+</html>
